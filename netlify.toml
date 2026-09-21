@@ -1,0 +1,8 @@
+[build]
+  # 站点入口在 html/ 目录，无需构建命令（纯静态）
+  publish = "html"
+  command = ""
+
+# 兼容：若有人尝试构建，跳过任何 npm 相关步骤
+[build.environment]
+  NODE_VERSION = "22"

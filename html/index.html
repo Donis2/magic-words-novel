@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>异世界魔法大陆 · 词频连载阅读</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- 主页：章节列表 -->
+  <main id="home-view" class="view">
+    <header class="home-header">
+      <h1>异世界魔法大陆</h1>
+      <p class="subtitle">考研词频连载小说 · 逐词可查 · 选中可译</p>
+      <div class="stats-bar" id="stats-bar"></div>
+    </header>
+    <section class="chapter-list" id="chapter-list"></section>
+  </main>
+
+  <!-- 阅读页 -->
+  <main id="reader-view" class="view hidden">
+    <header class="reader-header">
+      <button class="btn" id="btn-back">← 目录</button>
+      <div class="reader-title">
+        <h2 id="reader-title"></h2>
+        <span id="reader-meta"></span>
+      </div>
+      <button class="btn" id="btn-settings">⚙ 设置</button>
+    </header>
+    <nav class="chapter-nav">
+      <button class="btn" id="btn-prev">上一章</button>
+      <span id="nav-pos"></span>
+      <button class="btn" id="btn-next">下一章</button>
+    </nav>
+    <article class="reader-body" id="reader-body"></article>
+    <nav class="chapter-nav bottom">
+      <button class="btn" id="btn-prev2">上一章</button>
+      <button class="btn" id="btn-back2">← 返回目录</button>
+      <button class="btn" id="btn-next2">下一章</button>
+    </nav>
+  </main>
+
+  <!-- 单词释义卡片 -->
+  <div id="word-card" class="word-card hidden"></div>
+
+  <!-- 选中翻译按钮 -->
+  <button id="translate-btn" class="translate-btn hidden">翻译</button>
+
+  <!-- 设置面板 -->
+  <div id="settings-overlay" class="overlay hidden">
+    <div class="settings-panel">
+      <h3>阅读设置</h3>
+      <label class="setting-row">
+        <span>精简标注模式</span>
+        <input type="checkbox" id="opt-compact">
+      </label>
+      <label class="setting-row">
+        <span>词频阈值（不超过该词频的显示标注）</span>
+        <input type="number" id="opt-threshold" min="0" step="1">
+      </label>
+      <p class="hint">开启精简后，词频高于阈值的词不再加粗/上标，正文更清爽；点击单词仍可查释义。</p>
+      <div class="settings-actions">
+        <button class="btn" id="btn-settings-close">完成</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

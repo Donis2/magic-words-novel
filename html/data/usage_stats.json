@@ -1,0 +1,5228 @@
+{
+  "total_vocab": 5463,
+  "used_count": 435,
+  "coverage": 0.079627,
+  "unused_count": 5028,
+  "usage": {
+    "long": {
+      "word": "long",
+      "freq": 177,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-001": 6
+      }
+    },
+    "before": {
+      "word": "before",
+      "freq": 124,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "the": {
+      "word": "the",
+      "freq": 10151,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 119,
+      "by_chapter": {
+        "chapter-001": 119
+      }
+    },
+    "empire": {
+      "word": "empire",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "rose": {
+      "word": "rose",
+      "freq": 12,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "to": {
+      "word": "to",
+      "freq": 5334,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 18,
+      "by_chapter": {
+        "chapter-001": 18
+      }
+    },
+    "rule": {
+      "word": "rule",
+      "freq": 100,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "wide": {
+      "word": "wide",
+      "freq": 29,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "continent": {
+      "word": "continent",
+      "freq": 16,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "of": {
+      "word": "of",
+      "freq": 5484,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 45,
+      "by_chapter": {
+        "chapter-001": 45
+      }
+    },
+    "shape": {
+      "word": "shape",
+      "freq": 17,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "this": {
+      "word": "this",
+      "freq": 575,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "world": {
+      "word": "world",
+      "freq": 225,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "from": {
+      "word": "from",
+      "freq": 837,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 8,
+      "by_chapter": {
+        "chapter-001": 8
+      }
+    },
+    "stone": {
+      "word": "stone",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 8,
+      "by_chapter": {
+        "chapter-001": 8
+      }
+    },
+    "and": {
+      "word": "and",
+      "freq": 3776,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 84,
+      "by_chapter": {
+        "chapter-001": 84
+      }
+    },
+    "water": {
+      "word": "water",
+      "freq": 28,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "wind": {
+      "word": "wind",
+      "freq": 14,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "fire": {
+      "word": "fire",
+      "freq": 44,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 8,
+      "by_chapter": {
+        "chapter-001": 8
+      }
+    },
+    "in": {
+      "word": "in",
+      "freq": 3341,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 19,
+      "by_chapter": {
+        "chapter-001": 19
+      }
+    },
+    "those": {
+      "word": "those",
+      "freq": 188,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "first": {
+      "word": "first",
+      "freq": 157,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "day": {
+      "word": "day",
+      "freq": 123,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "magic": {
+      "word": "magic",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 7,
+      "by_chapter": {
+        "chapter-001": 7
+      }
+    },
+    "be": {
+      "word": "be",
+      "freq": 6378,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 34,
+      "by_chapter": {
+        "chapter-001": 34
+      }
+    },
+    "not": {
+      "word": "not",
+      "freq": 1164,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 16,
+      "by_chapter": {
+        "chapter-001": 16
+      }
+    },
+    "a": {
+      "word": "a",
+      "freq": 6358,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 58,
+      "by_chapter": {
+        "chapter-001": 58
+      }
+    },
+    "rare": {
+      "word": "rare",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "precious": {
+      "word": "precious",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "gift": {
+      "word": "gift",
+      "freq": 12,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "it": {
+      "word": "it",
+      "freq": 1533,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 14,
+      "by_chapter": {
+        "chapter-001": 14
+      }
+    },
+    "light": {
+      "word": "light",
+      "freq": 34,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 12,
+      "by_chapter": {
+        "chapter-001": 12
+      }
+    },
+    "warm": {
+      "word": "warm",
+      "freq": 14,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "that": {
+      "word": "that",
+      "freq": 2414,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 15,
+      "by_chapter": {
+        "chapter-001": 15
+      }
+    },
+    "every": {
+      "word": "every",
+      "freq": 75,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "soul": {
+      "word": "soul",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "carry": {
+      "word": "carry",
+      "freq": 43,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "within": {
+      "word": "within",
+      "freq": 56,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "man": {
+      "word": "man",
+      "freq": 47,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "woman": {
+      "word": "woman",
+      "freq": 92,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "walk": {
+      "word": "walk",
+      "freq": 19,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 8,
+      "by_chapter": {
+        "chapter-001": 8
+      }
+    },
+    "land": {
+      "word": "land",
+      "freq": 37,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "without": {
+      "word": "without",
+      "freq": 96,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "fear": {
+      "word": "fear",
+      "freq": 40,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 9,
+      "by_chapter": {
+        "chapter-001": 9
+      }
+    },
+    "dark": {
+      "word": "dark",
+      "freq": 16,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "field": {
+      "word": "field",
+      "freq": 28,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "rich": {
+      "word": "rich",
+      "freq": 28,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "river": {
+      "word": "river",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "run": {
+      "word": "run",
+      "freq": 38,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "clean": {
+      "word": "clean",
+      "freq": 20,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "god": {
+      "word": "god",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "watch": {
+      "word": "watch",
+      "freq": 23,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "kind": {
+      "word": "kind",
+      "freq": 86,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "their": {
+      "word": "their",
+      "freq": 913,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "high": {
+      "word": "high",
+      "freq": 160,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "place": {
+      "word": "place",
+      "freq": 122,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "but": {
+      "word": "but",
+      "freq": 729,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 7,
+      "by_chapter": {
+        "chapter-001": 7
+      }
+    },
+    "age": {
+      "word": "age",
+      "freq": 77,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "pass": {
+      "word": "pass",
+      "freq": 43,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "blood": {
+      "word": "blood",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "spill": {
+      "word": "spill",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "inner": {
+      "word": "inner",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "dim": {
+      "word": "dim",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "what": {
+      "word": "what",
+      "freq": 408,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "once": {
+      "word": "once",
+      "freq": 75,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "common": {
+      "word": "common",
+      "freq": 70,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "legend": {
+      "word": "legend",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "time": {
+      "word": "time",
+      "freq": 348,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "myth": {
+      "word": "myth",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "at": {
+      "word": "at",
+      "freq": 663,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 10,
+      "by_chapter": {
+        "chapter-001": 10
+      }
+    },
+    "far": {
+      "word": "far",
+      "freq": 60,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "edge": {
+      "word": "edge",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "where": {
+      "word": "where",
+      "freq": 131,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "pave": {
+      "word": "pave",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "road": {
+      "word": "road",
+      "freq": 23,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "dirt": {
+      "word": "dirt",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "trail": {
+      "word": "trail",
+      "freq": 13,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "great": {
+      "word": "great",
+      "freq": 147,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "give": {
+      "word": "give",
+      "freq": 222,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "way": {
+      "word": "way",
+      "freq": 261,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "forest": {
+      "word": "forest",
+      "freq": 46,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "small": {
+      "word": "small",
+      "freq": 73,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "village": {
+      "word": "village",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "call": {
+      "word": "call",
+      "freq": 83,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "grey": {
+      "word": "grey",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "old": {
+      "word": "old",
+      "freq": 89,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-001": 6
+      }
+    },
+    "mountain": {
+      "word": "mountain",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "over": {
+      "word": "over",
+      "freq": 178,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-001": 6
+      }
+    },
+    "with": {
+      "word": "with",
+      "freq": 956,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "patient": {
+      "word": "patient",
+      "freq": 45,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "eye": {
+      "word": "eye",
+      "freq": 45,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 12,
+      "by_chapter": {
+        "chapter-001": 12
+      }
+    },
+    "ancient": {
+      "word": "ancient",
+      "freq": 16,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "wood": {
+      "word": "wood",
+      "freq": 26,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "press": {
+      "word": "press",
+      "freq": 19,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "close": {
+      "word": "close",
+      "freq": 56,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "against": {
+      "word": "against",
+      "freq": 102,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "its": {
+      "word": "its",
+      "freq": 424,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "wall": {
+      "word": "wall",
+      "freq": 16,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "here": {
+      "word": "here",
+      "freq": 36,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "live": {
+      "word": "live",
+      "freq": 112,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "girl": {
+      "word": "girl",
+      "freq": 20,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "whose": {
+      "word": "whose",
+      "freq": 34,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "hand": {
+      "word": "hand",
+      "freq": 42,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "could": {
+      "word": "could",
+      "freq": 211,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 9,
+      "by_chapter": {
+        "chapter-001": 9
+      }
+    },
+    "work": {
+      "word": "work",
+      "freq": 362,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "never": {
+      "word": "never",
+      "freq": 51,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "even": {
+      "word": "even",
+      "freq": 229,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "child": {
+      "word": "child",
+      "freq": 189,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "spark": {
+      "word": "spark",
+      "freq": 9,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "nothing": {
+      "word": "nothing",
+      "freq": 29,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "she": {
+      "word": "she",
+      "freq": 84,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 44,
+      "by_chapter": {
+        "chapter-001": 44
+      }
+    },
+    "alone": {
+      "word": "alone",
+      "freq": 31,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "empty": {
+      "word": "empty",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "or": {
+      "word": "or",
+      "freq": 767,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "so": {
+      "word": "so",
+      "freq": 303,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "whole": {
+      "word": "whole",
+      "freq": 26,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "say": {
+      "word": "say",
+      "freq": 472,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 7,
+      "by_chapter": {
+        "chapter-001": 7
+      }
+    },
+    "have": {
+      "word": "have",
+      "freq": 1804,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 17,
+      "by_chapter": {
+        "chapter-001": 17
+      }
+    },
+    "learned": {
+      "word": "learned",
+      "freq": 56,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "believe": {
+      "word": "believe",
+      "freq": 100,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "her": {
+      "word": "her",
+      "freq": 83,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 40,
+      "by_chapter": {
+        "chapter-001": 40
+      }
+    },
+    "father": {
+      "word": "father",
+      "freq": 22,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "ill": {
+      "word": "ill",
+      "freq": 13,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "there": {
+      "word": "there",
+      "freq": 358,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "no": {
+      "word": "no",
+      "freq": 221,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 7,
+      "by_chapter": {
+        "chapter-001": 7
+      }
+    },
+    "one": {
+      "word": "one",
+      "freq": 466,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-001": 6
+      }
+    },
+    "else": {
+      "word": "else",
+      "freq": 32,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "tend": {
+      "word": "tend",
+      "freq": 74,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "him": {
+      "word": "him",
+      "freq": 65,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "each": {
+      "word": "each",
+      "freq": 206,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "evening": {
+      "word": "evening",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "when": {
+      "word": "when",
+      "freq": 364,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "begin": {
+      "word": "begin",
+      "freq": 60,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "fail": {
+      "word": "fail",
+      "freq": 60,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "into": {
+      "word": "into",
+      "freq": 289,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-001": 6
+      }
+    },
+    "gather": {
+      "word": "gather",
+      "freq": 17,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "herb": {
+      "word": "herb",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "beside": {
+      "word": "beside",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "brave": {
+      "word": "brave",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "tell": {
+      "word": "tell",
+      "freq": 58,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "herself": {
+      "word": "herself",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "only": {
+      "word": "only",
+      "freq": 243,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "daughter": {
+      "word": "daughter",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "who": {
+      "word": "who",
+      "freq": 358,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "anyway": {
+      "word": "anyway",
+      "freq": 10,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "because": {
+      "word": "because",
+      "freq": 211,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "love": {
+      "word": "love",
+      "freq": 22,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "courage": {
+      "word": "courage",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "strong": {
+      "word": "strong",
+      "freq": 47,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "than": {
+      "word": "than",
+      "freq": 413,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "cook": {
+      "word": "cook",
+      "freq": 8,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "thin": {
+      "word": "thin",
+      "freq": 11,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "low": {
+      "word": "low",
+      "freq": 38,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "ground": {
+      "word": "ground",
+      "freq": 21,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "bitter": {
+      "word": "bitter",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "shadow": {
+      "word": "shadow",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "corner": {
+      "word": "corner",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "room": {
+      "word": "room",
+      "freq": 25,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "do": {
+      "word": "do",
+      "freq": 790,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 8,
+      "by_chapter": {
+        "chapter-001": 8
+      }
+    },
+    "these": {
+      "word": "these",
+      "freq": 249,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "quiet": {
+      "word": "quiet",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "thing": {
+      "word": "thing",
+      "freq": 123,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "complaint": {
+      "word": "complaint",
+      "freq": 13,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "for": {
+      "word": "for",
+      "freq": 1725,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-001": 6
+      }
+    },
+    "All": {
+      "word": "All",
+      "freq": 372,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "full": {
+      "word": "full",
+      "freq": 23,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "night": {
+      "word": "night",
+      "freq": 14,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "as": {
+      "word": "as",
+      "freq": 1195,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 12,
+      "by_chapter": {
+        "chapter-001": 12
+      }
+    },
+    "beneath": {
+      "word": "beneath",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "tall": {
+      "word": "tall",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "tree": {
+      "word": "tree",
+      "freq": 46,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "fell": {
+      "word": "fell",
+      "freq": 12,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "complete": {
+      "word": "complete",
+      "freq": 31,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "still": {
+      "word": "still",
+      "freq": 123,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "bird": {
+      "word": "bird",
+      "freq": 27,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "leaf": {
+      "word": "leaf",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "path": {
+      "word": "path",
+      "freq": 35,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "hundred": {
+      "word": "hundred",
+      "freq": 23,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "feel": {
+      "word": "feel",
+      "freq": 103,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "strange": {
+      "word": "strange",
+      "freq": 10,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "wrong": {
+      "word": "wrong",
+      "freq": 33,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "if": {
+      "word": "if",
+      "freq": 352,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "earth": {
+      "word": "earth",
+      "freq": 13,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "itself": {
+      "word": "itself",
+      "freq": 32,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "hold": {
+      "word": "hold",
+      "freq": 82,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "breath": {
+      "word": "breath",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "on": {
+      "word": "on",
+      "freq": 1386,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "iron": {
+      "word": "iron",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "knife": {
+      "word": "knife",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "belt": {
+      "word": "belt",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "go": {
+      "word": "go",
+      "freq": 216,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 7,
+      "by_chapter": {
+        "chapter-001": 7
+      }
+    },
+    "though": {
+      "word": "though",
+      "freq": 68,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "step": {
+      "word": "step",
+      "freq": 31,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "cost": {
+      "word": "cost",
+      "freq": 118,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "something": {
+      "word": "something",
+      "freq": 70,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-001": 6
+      }
+    },
+    "deep": {
+      "word": "deep",
+      "freq": 30,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "crystal": {
+      "word": "crystal",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "figure": {
+      "word": "figure",
+      "freq": 39,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "white": {
+      "word": "white",
+      "freq": 20,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "blind": {
+      "word": "blind",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "star": {
+      "word": "star",
+      "freq": 13,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "along": {
+      "word": "along",
+      "freq": 36,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "person": {
+      "word": "person",
+      "freq": 57,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "leave": {
+      "word": "leave",
+      "freq": 49,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "crust": {
+      "word": "crust",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "bread": {
+      "word": "bread",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "few": {
+      "word": "few",
+      "freq": 127,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "silver": {
+      "word": "silver",
+      "freq": 9,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "coin": {
+      "word": "coin",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "handful": {
+      "word": "handful",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "grain": {
+      "word": "grain",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "pray": {
+      "word": "pray",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "good": {
+      "word": "good",
+      "freq": 137,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "harvest": {
+      "word": "harvest",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "mild": {
+      "word": "mild",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "winter": {
+      "word": "winter",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "soft": {
+      "word": "soft",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "moss": {
+      "word": "moss",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "own": {
+      "word": "own",
+      "freq": 173,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "poor": {
+      "word": "poor",
+      "freq": 47,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "offer": {
+      "word": "offer",
+      "freq": 77,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "foot": {
+      "word": "foot",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "bundle": {
+      "word": "bundle",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "copper": {
+      "word": "copper",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "then": {
+      "word": "then",
+      "freq": 142,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "see": {
+      "word": "see",
+      "freq": 144,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 7,
+      "by_chapter": {
+        "chapter-001": 7
+      }
+    },
+    "thread": {
+      "word": "thread",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "gold": {
+      "word": "gold",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "hair": {
+      "word": "hair",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "drift": {
+      "word": "drift",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "through": {
+      "word": "through",
+      "freq": 125,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "Air": {
+      "word": "Air",
+      "freq": 23,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "like": {
+      "word": "like",
+      "freq": 196,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "living": {
+      "word": "living",
+      "freq": 51,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "glow": {
+      "word": "glow",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "move": {
+      "word": "move",
+      "freq": 72,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "sure": {
+      "word": "sure",
+      "freq": 26,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "hunger": {
+      "word": "hunger",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "trick": {
+      "word": "trick",
+      "freq": 10,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "vanish": {
+      "word": "vanish",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "turn": {
+      "word": "turn",
+      "freq": 84,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "head": {
+      "word": "head",
+      "freq": 25,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "open": {
+      "word": "open",
+      "freq": 48,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "book": {
+      "word": "book",
+      "freq": 88,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "blue": {
+      "word": "blue",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "green": {
+      "word": "green",
+      "freq": 12,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "flow": {
+      "word": "flow",
+      "freq": 19,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "root": {
+      "word": "root",
+      "freq": 16,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "sharp": {
+      "word": "sharp",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "pain": {
+      "word": "pain",
+      "freq": 22,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "burn": {
+      "word": "burn",
+      "freq": 13,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "behind": {
+      "word": "behind",
+      "freq": 31,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "right": {
+      "word": "right",
+      "freq": 121,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "sudden": {
+      "word": "sudden",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "bright": {
+      "word": "bright",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "flame": {
+      "word": "flame",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "both": {
+      "word": "both",
+      "freq": 105,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "face": {
+      "word": "face",
+      "freq": 70,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "out": {
+      "word": "out",
+      "freq": 265,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "roar": {
+      "word": "roar",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "skull": {
+      "word": "skull",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "tremble": {
+      "word": "tremble",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "knee": {
+      "word": "knee",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "surge": {
+      "word": "surge",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "toward": {
+      "word": "toward",
+      "freq": 44,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "pour": {
+      "word": "pour",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "snow": {
+      "word": "snow",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "again": {
+      "word": "again",
+      "freq": 30,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "more": {
+      "word": "more",
+      "freq": 723,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "change": {
+      "word": "change",
+      "freq": 295,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "ordinary": {
+      "word": "ordinary",
+      "freq": 11,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "pale": {
+      "word": "pale",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "ring": {
+      "word": "ring",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "faint": {
+      "word": "faint",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "moon": {
+      "word": "moon",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "trace": {
+      "word": "trace",
+      "freq": 15,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "inside": {
+      "word": "inside",
+      "freq": 11,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "know": {
+      "word": "know",
+      "freq": 144,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "whether": {
+      "word": "whether",
+      "freq": 65,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "curse": {
+      "word": "curse",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "near": {
+      "word": "near",
+      "freq": 22,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "dawn": {
+      "word": "dawn",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "reach": {
+      "word": "reach",
+      "freq": 38,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "home": {
+      "word": "home",
+      "freq": 112,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "find": {
+      "word": "find",
+      "freq": 117,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "sleep": {
+      "word": "sleep",
+      "freq": 16,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "his": {
+      "word": "his",
+      "freq": 267,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 11,
+      "by_chapter": {
+        "chapter-001": 11
+      }
+    },
+    "bed": {
+      "word": "bed",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "golden": {
+      "word": "golden",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "reflection": {
+      "word": "reflection",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "window": {
+      "word": "window",
+      "freq": 11,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "away": {
+      "word": "away",
+      "freq": 43,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "yet": {
+      "word": "yet",
+      "freq": 113,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-001": 3
+      }
+    },
+    "how": {
+      "word": "how",
+      "freq": 263,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "explain": {
+      "word": "explain",
+      "freq": 59,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "understand": {
+      "word": "understand",
+      "freq": 51,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "little": {
+      "word": "little",
+      "freq": 73,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "morning": {
+      "word": "morning",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "by": {
+      "word": "by",
+      "freq": 852,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "cold": {
+      "word": "cold",
+      "freq": 8,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "test": {
+      "word": "test",
+      "freq": 87,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "look": {
+      "word": "look",
+      "freq": 139,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "pot": {
+      "word": "pot",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "line": {
+      "word": "line",
+      "freq": 86,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "heat": {
+      "word": "heat",
+      "freq": 22,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "around": {
+      "word": "around",
+      "freq": 98,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "memory": {
+      "word": "memory",
+      "freq": 34,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "slow": {
+      "word": "slow",
+      "freq": 30,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "skin": {
+      "word": "skin",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "frighten": {
+      "word": "frighten",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "under": {
+      "word": "under",
+      "freq": 72,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "new": {
+      "word": "new",
+      "freq": 376,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "bring": {
+      "word": "bring",
+      "freq": 89,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "noon": {
+      "word": "noon",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "weak": {
+      "word": "weak",
+      "freq": 8,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "voice": {
+      "word": "voice",
+      "freq": 12,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "why": {
+      "word": "why",
+      "freq": 87,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "let": {
+      "word": "let",
+      "freq": 27,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "fetch": {
+      "word": "fetch",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "well": {
+      "word": "well",
+      "freq": 146,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "square": {
+      "word": "square",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "group": {
+      "word": "group",
+      "freq": 95,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "farmer": {
+      "word": "farmer",
+      "freq": 15,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "them": {
+      "word": "them",
+      "freq": 318,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "name": {
+      "word": "name",
+      "freq": 76,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "hammer": {
+      "word": "hammer",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "keep": {
+      "word": "keep",
+      "freq": 116,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "down": {
+      "word": "down",
+      "freq": 86,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "fast": {
+      "word": "fast",
+      "freq": 32,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-001": 4
+      }
+    },
+    "upon": {
+      "word": "upon",
+      "freq": 17,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "back": {
+      "word": "back",
+      "freq": 83,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "up": {
+      "word": "up",
+      "freq": 255,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "spine": {
+      "word": "spine",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "news": {
+      "word": "news",
+      "freq": 47,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "already": {
+      "word": "already",
+      "freq": 50,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "hear": {
+      "word": "hear",
+      "freq": 23,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "northern": {
+      "word": "northern",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "some": {
+      "word": "some",
+      "freq": 327,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "bee": {
+      "word": "bee",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "he": {
+      "word": "he",
+      "freq": 314,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 7,
+      "by_chapter": {
+        "chapter-001": 7
+      }
+    },
+    "fall": {
+      "word": "fall",
+      "freq": 38,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "sky": {
+      "word": "sky",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "disappear": {
+      "word": "disappear",
+      "freq": 14,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "among": {
+      "word": "among",
+      "freq": 95,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "pin": {
+      "word": "pin",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "spread": {
+      "word": "spread",
+      "freq": 25,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "truth": {
+      "word": "truth",
+      "freq": 15,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "always": {
+      "word": "always",
+      "freq": 68,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "arrive": {
+      "word": "arrive",
+      "freq": 15,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "late": {
+      "word": "late",
+      "freq": 57,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "secret": {
+      "word": "secret",
+      "freq": 17,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "coal": {
+      "word": "coal",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "chest": {
+      "word": "chest",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "fold": {
+      "word": "fold",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "thick": {
+      "word": "thick",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "arm": {
+      "word": "arm",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "you": {
+      "word": "you",
+      "freq": 795,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "about": {
+      "word": "about",
+      "freq": 523,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "your": {
+      "word": "your",
+      "freq": 609,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "rope": {
+      "word": "rope",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "bucket": {
+      "word": "bucket",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "moment": {
+      "word": "moment",
+      "freq": 34,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "would": {
+      "word": "would",
+      "freq": 319,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-001": 5
+      }
+    },
+    "lift": {
+      "word": "lift",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "chin": {
+      "word": "chin",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "dog": {
+      "word": "dog",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "bark": {
+      "word": "bark",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "cart": {
+      "word": "cart",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "past": {
+      "word": "past",
+      "freq": 85,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "whisper": {
+      "word": "whisper",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "hurry": {
+      "word": "hurry",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "heart": {
+      "word": "heart",
+      "freq": 24,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "beat": {
+      "word": "beat",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "hard": {
+      "word": "hard",
+      "freq": 74,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "rib": {
+      "word": "rib",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "gate": {
+      "word": "gate",
+      "freq": 9,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "town": {
+      "word": "town",
+      "freq": 31,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "second": {
+      "word": "second",
+      "freq": 42,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "word": {
+      "word": "word",
+      "freq": 223,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "travel": {
+      "word": "travel",
+      "freq": 39,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "reason": {
+      "word": "reason",
+      "freq": 107,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "sunrise": {
+      "word": "sunrise",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "report": {
+      "word": "report",
+      "freq": 94,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "hall": {
+      "word": "hall",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "black": {
+      "word": "black",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "guard": {
+      "word": "guard",
+      "freq": 10,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "thunder": {
+      "word": "thunder",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "young": {
+      "word": "young",
+      "freq": 87,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "officer": {
+      "word": "officer",
+      "freq": 12,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "soldier": {
+      "word": "soldier",
+      "freq": 9,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "smile": {
+      "word": "smile",
+      "freq": 26,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "color": {
+      "word": "color",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "last": {
+      "word": "last",
+      "freq": 150,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "tomb": {
+      "word": "tomb",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "north": {
+      "word": "north",
+      "freq": 15,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "dead": {
+      "word": "dead",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "since": {
+      "word": "since",
+      "freq": 101,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "war": {
+      "word": "war",
+      "freq": 51,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "southern": {
+      "word": "southern",
+      "freq": 16,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "mad": {
+      "word": "mad",
+      "freq": 0,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "hero": {
+      "word": "hero",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "end": {
+      "word": "end",
+      "freq": 93,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "care": {
+      "word": "care",
+      "freq": 68,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "such": {
+      "word": "such",
+      "freq": 268,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "order": {
+      "word": "order",
+      "freq": 51,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "source": {
+      "word": "source",
+      "freq": 40,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "silence": {
+      "word": "silence",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "emperor": {
+      "word": "emperor",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "palace": {
+      "word": "palace",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "bless": {
+      "word": "bless",
+      "freq": 4,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "crown": {
+      "word": "crown",
+      "freq": 3,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "danger": {
+      "word": "danger",
+      "freq": 17,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "wonder": {
+      "word": "wonder",
+      "freq": 20,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 2
+      }
+    },
+    "duty": {
+      "word": "duty",
+      "freq": 19,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "put": {
+      "word": "put",
+      "freq": 87,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "rise": {
+      "word": "rise",
+      "freq": 71,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "two": {
+      "word": "two",
+      "freq": 150,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "bound": {
+      "word": "bound",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "together": {
+      "word": "together",
+      "freq": 39,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "meeting": {
+      "word": "meeting",
+      "freq": 23,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "set": {
+      "word": "set",
+      "freq": 73,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "terrible": {
+      "word": "terrible",
+      "freq": 2,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "journey": {
+      "word": "journey",
+      "freq": 8,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "motion": {
+      "word": "motion",
+      "freq": 10,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "quest": {
+      "word": "quest",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "mouth": {
+      "word": "mouth",
+      "freq": 5,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "climb": {
+      "word": "climb",
+      "freq": 7,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "hill": {
+      "word": "hill",
+      "freq": 6,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "ash": {
+      "word": "ash",
+      "freq": 1,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "come": {
+      "word": "come",
+      "freq": 181,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "simple": {
+      "word": "simple",
+      "freq": 22,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "life": {
+      "word": "life",
+      "freq": 176,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "now": {
+      "word": "now",
+      "freq": 180,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "born": {
+      "word": "born",
+      "freq": 20,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    },
+    "power": {
+      "word": "power",
+      "freq": 94,
+      "first_chapter": "chapter-001",
+      "chapters": [
+        "chapter-001"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-001": 1
+      }
+    }
+  }
+}

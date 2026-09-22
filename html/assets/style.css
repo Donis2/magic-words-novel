@@ -191,6 +191,21 @@ html, body {
   color: var(--gold);
   white-space: nowrap;
 }
+.word-card .card-head { gap: 10px; }
+.speak-btn {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+  color: var(--accent);
+  background: #fdf6e3;
+  border: 1px solid var(--accent-soft);
+  border-radius: 999px;
+  padding: 3px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all .15s ease;
+}
+.speak-btn:hover { background: var(--accent); color: #fff; }
+.speak-btn:active { transform: translateY(1px); }
 .word-card .lemma { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
 .word-card .def { font-size: 15px; line-height: 1.6; margin-bottom: 12px; color: #333; }
 .word-card .grid {

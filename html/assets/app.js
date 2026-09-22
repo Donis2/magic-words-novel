@@ -189,7 +189,11 @@
       const posLine = entry.pos ? `<div class="grid"><span class="k">词性</span><span class="v">${esc(entry.pos)}</span></div>` : "";
       const rankLine = entry.rank ? `<div class="grid"><span class="k">词频排名</span><span class="v">第 ${entry.rank} 位</span></div>` : "";
       html =
-        `<div class="card-head"><span class="w">${esc(display)}</span><span class="freq">词频 ${freq}</span></div>` +
+        `<div class="card-head">` +
+        `<span class="w">${esc(display)}</span>` +
+        `<button class="speak-btn" data-word="${esc(entry.word)}" title="听读音" aria-label="听读音">读音</button>` +
+        `<span class="freq">词频 ${freq}</span>` +
+        `</div>` +
         (display.toLowerCase() !== entry.word.toLowerCase()
           ? `<div class="lemma">原形：${esc(entry.word)}</div>` : "") +
         `<div class="def">${esc(entry.def)}</div>` +
@@ -202,7 +206,10 @@
     } else {
       // 非词频词：提示未收录
       html =
-        `<div class="card-head"><span class="w">${esc(display)}</span></div>` +
+        `<div class="card-head">` +
+        `<span class="w">${esc(display)}</span>` +
+        `<button class="speak-btn" data-word="${esc(display)}" title="听读音" aria-label="听读音">读音</button>` +
+        `</div>` +
         `<div class="def">未收录于考研词频表。</div>`;
     }
 
@@ -224,19 +231,51 @@
     $("#word-card").classList.add("hidden");
   }
 
+  // ===== 单词读音 =====
+  function speakWord(word) {
+    if (!("speechSynthesis" in window)) return;
+    try {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(word);
+      u.lang = "en-US";
+      u.rate = 0.85;
+      const voices = window.speechSynthesis.getVoices();
+      const en = voices.find((v) => v.lang && v.lang.toLowerCase().startsWith("en"));
+      if (en) u.voice = en;
+      window.speechSynthesis.speak(u);
+    } catch (e) {
+      // 忽略语音合成错误
+    }
+  }
+
   // ===== 选中翻译 =====
-  function onBodyMouseUp(e) {
-    // 延迟以等待 selection 稳定
-    setTimeout(() => {
-      if (e.target.closest("#translate-btn") || e.target.closest(".word-card")) return;
-      const sel = window.getSelection();
-      const text = sel ? sel.toString().trim() : "";
-      if (text && text.length > 0) {
-        showTranslateBtn(sel);
-      } else {
-        $("#translate-btn").classList.add("hidden");
-      }
-    }, 10);
+  // 用 selectionchange 跨平台监听：移动端长按选词、桌面端拖选都会触发
+  let selectTimer = null;
+  function onSelectionChange() {
+    clearTimeout(selectTimer);
+    selectTimer = setTimeout(handleSelection, 220);
+  }
+
+  function handleSelection() {
+    const sel = window.getSelection();
+    const btn = $("#translate-btn");
+    if (!sel || sel.isCollapsed) {
+      btn.classList.add("hidden");
+      return;
+    }
+    const text = sel.toString().trim();
+    if (!text) {
+      btn.classList.add("hidden");
+      return;
+    }
+    // 仅当选区位于正文内
+    const anchor = sel.anchorNode;
+    const anchorEl = anchor && (anchor.nodeType === 1 ? anchor : anchor.parentElement);
+    if (!anchorEl || !anchorEl.closest("#reader-body")) {
+      btn.classList.add("hidden");
+      return;
+    }
+    showTranslateBtn(sel);
   }
 
   function showTranslateBtn(sel) {
@@ -349,9 +388,15 @@
     $("#btn-next2").addEventListener("click", goNext);
 
     $("#reader-body").addEventListener("click", onBodyClick);
-    $("#reader-body").addEventListener("mouseup", onBodyMouseUp);
+    document.addEventListener("selectionchange", onSelectionChange);
 
     $("#translate-btn").addEventListener("click", onTranslate);
+
+    // 单词读音按钮（事件委托，覆盖重新渲染的卡片）
+    document.addEventListener("click", (e) => {
+      const btn = e.target.closest(".speak-btn");
+      if (btn && btn.dataset.word) speakWord(btn.dataset.word);
+    });
 
     // 点击空白关闭卡片
     document.addEventListener("click", (e) => {

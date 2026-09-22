@@ -279,21 +279,39 @@
   }
 
   function showTranslateBtn(sel) {
+    if (!sel || sel.rangeCount === 0) return;
     const range = sel.getRangeAt(0);
     const rect = range.getBoundingClientRect();
     const btn = $("#translate-btn");
-    btn.classList.remove("hidden");
-    let left = rect.left + rect.width / 2 - 30;
-    let top = rect.top - 34;
-    left = Math.max(8, Math.min(left, window.innerWidth - 70));
-    if (top < 4) top = rect.bottom + 6;
-    btn.style.left = left + "px";
-    btn.style.top = top + "px";
+
     // 记忆当前选中文本（剔除词频上标数字，只保留英文）
     btn.dataset.text = getSelectionText(sel);
     // 记忆选区所在段落，供点击翻译后插入译文（点击按钮会清空 selection）
     const node = sel.anchorNode;
     pendingPara = (node && node.parentElement && node.parentElement.closest("p")) || null;
+    if (!pendingPara) return;
+
+    // 先临时显示以测量按钮尺寸（保持不可见，避免闪烁）
+    btn.style.visibility = "hidden";
+    btn.classList.remove("hidden");
+    btn.style.left = "0px";
+    btn.style.top = "0px";
+    const btnH = btn.offsetHeight || 34;
+    const btnW = btn.offsetWidth || 64;
+
+    const centerX = rect.left + rect.width / 2;
+    let left = centerX - btnW / 2;
+    left = Math.max(8, Math.min(left, window.innerWidth - btnW - 8));
+
+    // 按钮默认放在选区下方，避开浏览器自带的选中菜单（多出现在上方/下方手柄处）
+    const gap = 8;
+    let top = rect.bottom + gap;
+    if (top + btnH > window.innerHeight - 4) top = rect.top - btnH - gap;
+    if (top < 4) top = 4;
+
+    btn.style.left = left + "px";
+    btn.style.top = top + "px";
+    btn.style.visibility = "";
   }
 
   // 提取选区纯文本，去除 <sup> 词频数字
@@ -305,10 +323,14 @@
   }
 
   async function onTranslate() {
-    const text = $("#translate-btn").dataset.text;
-    if (!text) return;
     const btn = $("#translate-btn");
+    const text = btn.dataset.text;
+    const para = pendingPara;
+    // 立即清空状态，防止 pointerdown/touchstart/mousedown 等重复触发导致二次翻译
+    btn.dataset.text = "";
+    pendingPara = null;
     btn.classList.add("hidden");
+    if (!text || !para) return;
 
     let zh = null;
     try {
@@ -327,50 +349,55 @@
         `<div class="err">翻译服务暂不可用（网络或接口限制），请手动复制到翻译工具后再试。</div>`;
     }
     // 插入到选中段落的后面
-    if (pendingPara) {
-      pendingPara.insertAdjacentElement("afterend", box);
-    } else {
-      $("#reader-body").appendChild(box);
-    }
+    para.insertAdjacentElement("afterend", box);
     box.scrollIntoView({ block: "nearest" });
-    pendingPara = null;
   }
 
-  // 多源翻译：优先 Google 端点，失败回退 MyMemory
-  async function translateText(text) {
-    const tries = [
-      async () => {
-        const url =
-          "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
-          encodeURIComponent(text);
-        const r = await fetch(url);
-        if (!r.ok) throw new Error("http " + r.status);
-        const j = await r.json();
-        const parts = (j && j[0] || []).map((seg) => seg[0]).join("");
-        if (!parts) throw new Error("no translation");
-        return parts;
-      },
-      async () => {
-        const url =
-          "https://api.mymemory.translated.net/get?q=" +
-          encodeURIComponent(text) + "&langpair=en|zh-CN&de=reader@example.com";
-        const r = await fetch(url);
-        if (!r.ok) throw new Error("http " + r.status);
-        const j = await r.json();
-        const t = j && j.responseData && j.responseData.translatedText;
-        if (!t) throw new Error("no translation");
-        return t;
-      },
-    ];
-    let lastErr = null;
-    for (const fn of tries) {
-      try {
-        return await fn();
-      } catch (e) {
-        lastErr = e;
-      }
-    }
-    throw lastErr || new Error("all sources failed");
+  // 带超时的 fetch：避免接口不可达时长时间挂起、译文一直不出现
+  function fetchWithTimeout(url, ms) {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), ms);
+    return fetch(url, { signal: ctrl.signal }).finally(() => clearTimeout(t));
+  }
+
+  // 多源翻译：并行请求 Google 与 MyMemory，取最先成功者，降低延迟
+  async function translateViaGoogle(text) {
+    const url =
+      "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
+      encodeURIComponent(text);
+    const r = await fetchWithTimeout(url, 5000);
+    if (!r.ok) throw new Error("http " + r.status);
+    const j = await r.json();
+    const parts = (j && j[0] || []).map((seg) => seg[0]).join("");
+    if (!parts) throw new Error("no translation");
+    return parts;
+  }
+
+  async function translateViaMyMemory(text) {
+    const url =
+      "https://api.mymemory.translated.net/get?q=" +
+      encodeURIComponent(text) + "&langpair=en|zh-CN&de=reader@example.com";
+    const r = await fetchWithTimeout(url, 5000);
+    if (!r.ok) throw new Error("http " + r.status);
+    const j = await r.json();
+    const t = j && j.responseData && j.responseData.translatedText;
+    if (!t) throw new Error("no translation");
+    return t;
+  }
+
+  function translateText(text) {
+    const attempts = [translateViaGoogle(text), translateViaMyMemory(text)];
+    return new Promise((resolve, reject) => {
+      let pending = attempts.length;
+      let lastErr = null;
+      attempts.forEach((p) => {
+        p.then(resolve).catch((e) => {
+          lastErr = e;
+          pending -= 1;
+          if (pending === 0) reject(lastErr || new Error("all sources failed"));
+        });
+      });
+    });
   }
 
   // ===== 工具 =====
@@ -390,7 +417,24 @@
     $("#reader-body").addEventListener("click", onBodyClick);
     document.addEventListener("selectionchange", onSelectionChange);
 
-    $("#translate-btn").addEventListener("click", onTranslate);
+    // 翻译按钮用 pointerdown 触发：在移动端点按瞬间、选区尚未被系统清空前就响应，
+    // 避免 click 落在选区已空/按钮已被隐藏之后导致无反应。
+    const translateBtn = $("#translate-btn");
+    if (window.PointerEvent) {
+      translateBtn.addEventListener("pointerdown", (e) => {
+        e.preventDefault();
+        onTranslate();
+      });
+    } else {
+      translateBtn.addEventListener("mousedown", (e) => {
+        e.preventDefault();
+        onTranslate();
+      });
+      translateBtn.addEventListener("touchstart", (e) => {
+        e.preventDefault();
+        onTranslate();
+      }, { passive: false });
+    }
 
     // 单词读音按钮（事件委托，覆盖重新渲染的卡片）
     document.addEventListener("click", (e) => {

@@ -19,6 +19,7 @@ STATS_DIR = os.path.join(ROOT, "stats")
 # 章节标题（编号 -> 中文标题 / 英文副标题）
 CHAPTERS = {
     "chapter-001": {"cn": "第一章 魔法觉醒", "en": "The Awakening of Magic"},
+    "chapter-002": {"cn": "第二章 铁骑将至", "en": "The Riders of Iron"},
 }
 
 

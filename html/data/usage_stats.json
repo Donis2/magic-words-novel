@@ -1,19 +1,21 @@
 {
   "total_vocab": 5463,
-  "used_count": 435,
-  "coverage": 0.079627,
-  "unused_count": 5028,
+  "used_count": 577,
+  "coverage": 0.10562,
+  "unused_count": 4886,
   "usage": {
     "long": {
       "word": "long",
       "freq": 177,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 6,
+      "total": 12,
       "by_chapter": {
-        "chapter-001": 6
+        "chapter-001": 6,
+        "chapter-002": 6
       }
     },
     "before": {
@@ -21,11 +23,13 @@
       "freq": 124,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 11,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 8
       }
     },
     "the": {
@@ -33,11 +37,13 @@
       "freq": 10151,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 119,
+      "total": 271,
       "by_chapter": {
-        "chapter-001": 119
+        "chapter-001": 119,
+        "chapter-002": 152
       }
     },
     "empire": {
@@ -45,11 +51,13 @@
       "freq": 2,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 3
       }
     },
     "rose": {
@@ -57,11 +65,13 @@
       "freq": 12,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "to": {
@@ -69,11 +79,13 @@
       "freq": 5334,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 18,
+      "total": 46,
       "by_chapter": {
-        "chapter-001": 18
+        "chapter-001": 18,
+        "chapter-002": 28
       }
     },
     "rule": {
@@ -117,11 +129,13 @@
       "freq": 5484,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 45,
+      "total": 82,
       "by_chapter": {
-        "chapter-001": 45
+        "chapter-001": 45,
+        "chapter-002": 37
       }
     },
     "shape": {
@@ -141,11 +155,13 @@
       "freq": 575,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "world": {
@@ -153,11 +169,13 @@
       "freq": 225,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "from": {
@@ -165,11 +183,13 @@
       "freq": 837,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 8,
+      "total": 16,
       "by_chapter": {
-        "chapter-001": 8
+        "chapter-001": 8,
+        "chapter-002": 8
       }
     },
     "stone": {
@@ -177,11 +197,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 8,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 8
+        "chapter-001": 8,
+        "chapter-002": 5
       }
     },
     "and": {
@@ -189,11 +211,13 @@
       "freq": 3776,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 84,
+      "total": 179,
       "by_chapter": {
-        "chapter-001": 84
+        "chapter-001": 84,
+        "chapter-002": 95
       }
     },
     "water": {
@@ -213,11 +237,13 @@
       "freq": 14,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 1
       }
     },
     "fire": {
@@ -225,11 +251,13 @@
       "freq": 44,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 8,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 8
+        "chapter-001": 8,
+        "chapter-002": 5
       }
     },
     "in": {
@@ -237,11 +265,13 @@
       "freq": 3341,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 19,
+      "total": 41,
       "by_chapter": {
-        "chapter-001": 19
+        "chapter-001": 19,
+        "chapter-002": 22
       }
     },
     "those": {
@@ -249,11 +279,13 @@
       "freq": 188,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "first": {
@@ -261,11 +293,13 @@
       "freq": 157,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "day": {
@@ -285,11 +319,13 @@
       "freq": 5,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 7,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 7
+        "chapter-001": 7,
+        "chapter-002": 3
       }
     },
     "be": {
@@ -297,11 +333,13 @@
       "freq": 6378,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 34,
+      "total": 85,
       "by_chapter": {
-        "chapter-001": 34
+        "chapter-001": 34,
+        "chapter-002": 51
       }
     },
     "not": {
@@ -309,11 +347,13 @@
       "freq": 1164,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 16,
+      "total": 44,
       "by_chapter": {
-        "chapter-001": 16
+        "chapter-001": 16,
+        "chapter-002": 28
       }
     },
     "a": {
@@ -321,11 +361,13 @@
       "freq": 6358,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 58,
+      "total": 115,
       "by_chapter": {
-        "chapter-001": 58
+        "chapter-001": 58,
+        "chapter-002": 57
       }
     },
     "rare": {
@@ -369,11 +411,13 @@
       "freq": 1533,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 14,
+      "total": 47,
       "by_chapter": {
-        "chapter-001": 14
+        "chapter-001": 14,
+        "chapter-002": 33
       }
     },
     "light": {
@@ -381,11 +425,13 @@
       "freq": 34,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 12,
+      "total": 23,
       "by_chapter": {
-        "chapter-001": 12
+        "chapter-001": 12,
+        "chapter-002": 11
       }
     },
     "warm": {
@@ -405,11 +451,13 @@
       "freq": 2414,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 15,
+      "total": 29,
       "by_chapter": {
-        "chapter-001": 15
+        "chapter-001": 15,
+        "chapter-002": 14
       }
     },
     "every": {
@@ -417,11 +465,13 @@
       "freq": 75,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 11,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 6
       }
     },
     "soul": {
@@ -441,11 +491,13 @@
       "freq": 43,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "within": {
@@ -465,11 +517,13 @@
       "freq": 47,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 9,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 7
       }
     },
     "woman": {
@@ -489,11 +543,13 @@
       "freq": 19,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 8,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 8
+        "chapter-001": 8,
+        "chapter-002": 5
       }
     },
     "land": {
@@ -513,11 +569,13 @@
       "freq": 96,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "fear": {
@@ -525,11 +583,13 @@
       "freq": 40,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 9,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 9
+        "chapter-001": 9,
+        "chapter-002": 4
       }
     },
     "dark": {
@@ -537,11 +597,13 @@
       "freq": 16,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 2
       }
     },
     "field": {
@@ -573,11 +635,13 @@
       "freq": 7,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 1
       }
     },
     "run": {
@@ -585,11 +649,13 @@
       "freq": 38,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 5
       }
     },
     "clean": {
@@ -621,11 +687,13 @@
       "freq": 23,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 3
       }
     },
     "kind": {
@@ -633,11 +701,13 @@
       "freq": 86,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "their": {
@@ -645,11 +715,13 @@
       "freq": 913,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 11
       }
     },
     "high": {
@@ -669,11 +741,13 @@
       "freq": 122,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "but": {
@@ -681,11 +755,13 @@
       "freq": 729,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 7,
+      "total": 17,
       "by_chapter": {
-        "chapter-001": 7
+        "chapter-001": 7,
+        "chapter-002": 10
       }
     },
     "age": {
@@ -693,11 +769,13 @@
       "freq": 77,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "pass": {
@@ -765,11 +843,13 @@
       "freq": 408,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 12,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 10
       }
     },
     "once": {
@@ -777,11 +857,13 @@
       "freq": 75,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "common": {
@@ -813,11 +895,13 @@
       "freq": 348,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "myth": {
@@ -837,11 +921,13 @@
       "freq": 663,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 10,
+      "total": 28,
       "by_chapter": {
-        "chapter-001": 10
+        "chapter-001": 10,
+        "chapter-002": 18
       }
     },
     "far": {
@@ -849,11 +935,13 @@
       "freq": 60,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 1
       }
     },
     "edge": {
@@ -861,11 +949,13 @@
       "freq": 2,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 2
       }
     },
     "where": {
@@ -873,11 +963,13 @@
       "freq": 131,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 9,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 6
       }
     },
     "pave": {
@@ -897,11 +989,13 @@
       "freq": 23,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 5
       }
     },
     "dirt": {
@@ -909,11 +1003,13 @@
       "freq": 3,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "trail": {
@@ -933,11 +1029,13 @@
       "freq": 147,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 3
       }
     },
     "give": {
@@ -957,11 +1055,13 @@
       "freq": 261,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 5
       }
     },
     "forest": {
@@ -969,11 +1069,13 @@
       "freq": 46,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 1
       }
     },
     "small": {
@@ -981,11 +1083,13 @@
       "freq": 73,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 2
       }
     },
     "village": {
@@ -993,11 +1097,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 12,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 7
       }
     },
     "call": {
@@ -1017,11 +1123,13 @@
       "freq": 2,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 5
       }
     },
     "old": {
@@ -1029,11 +1137,13 @@
       "freq": 89,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 6,
+      "total": 20,
       "by_chapter": {
-        "chapter-001": 6
+        "chapter-001": 6,
+        "chapter-002": 14
       }
     },
     "mountain": {
@@ -1053,11 +1163,13 @@
       "freq": 178,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 6,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 6
+        "chapter-001": 6,
+        "chapter-002": 7
       }
     },
     "with": {
@@ -1065,11 +1177,13 @@
       "freq": 956,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 8
       }
     },
     "patient": {
@@ -1077,11 +1191,13 @@
       "freq": 45,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "eye": {
@@ -1089,11 +1205,13 @@
       "freq": 45,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 12,
+      "total": 25,
       "by_chapter": {
-        "chapter-001": 12
+        "chapter-001": 12,
+        "chapter-002": 13
       }
     },
     "ancient": {
@@ -1113,11 +1231,13 @@
       "freq": 26,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 6
       }
     },
     "press": {
@@ -1137,11 +1257,13 @@
       "freq": 56,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "against": {
@@ -1161,11 +1283,13 @@
       "freq": 424,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 2
       }
     },
     "wall": {
@@ -1173,11 +1297,13 @@
       "freq": 16,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "here": {
@@ -1185,11 +1311,13 @@
       "freq": 36,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "live": {
@@ -1209,11 +1337,13 @@
       "freq": 20,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "whose": {
@@ -1233,11 +1363,13 @@
       "freq": 42,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 15,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 10
       }
     },
     "could": {
@@ -1245,11 +1377,13 @@
       "freq": 211,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 9,
+      "total": 16,
       "by_chapter": {
-        "chapter-001": 9
+        "chapter-001": 9,
+        "chapter-002": 7
       }
     },
     "work": {
@@ -1257,11 +1391,13 @@
       "freq": 362,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 1
       }
     },
     "never": {
@@ -1281,11 +1417,13 @@
       "freq": 229,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "child": {
@@ -1293,11 +1431,13 @@
       "freq": 189,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "spark": {
@@ -1317,11 +1457,13 @@
       "freq": 29,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 5
       }
     },
     "she": {
@@ -1329,11 +1471,13 @@
       "freq": 84,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 44,
+      "total": 89,
       "by_chapter": {
-        "chapter-001": 44
+        "chapter-001": 44,
+        "chapter-002": 45
       }
     },
     "alone": {
@@ -1341,11 +1485,13 @@
       "freq": 31,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "empty": {
@@ -1365,11 +1511,13 @@
       "freq": 767,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 4
       }
     },
     "so": {
@@ -1377,11 +1525,13 @@
       "freq": 303,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 4
       }
     },
     "whole": {
@@ -1389,11 +1539,13 @@
       "freq": 26,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 3
       }
     },
     "say": {
@@ -1401,11 +1553,13 @@
       "freq": 472,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 7,
+      "total": 21,
       "by_chapter": {
-        "chapter-001": 7
+        "chapter-001": 7,
+        "chapter-002": 14
       }
     },
     "have": {
@@ -1413,11 +1567,13 @@
       "freq": 1804,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 17,
+      "total": 44,
       "by_chapter": {
-        "chapter-001": 17
+        "chapter-001": 17,
+        "chapter-002": 27
       }
     },
     "learned": {
@@ -1449,11 +1605,13 @@
       "freq": 83,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 40,
+      "total": 74,
       "by_chapter": {
-        "chapter-001": 40
+        "chapter-001": 40,
+        "chapter-002": 34
       }
     },
     "father": {
@@ -1461,11 +1619,13 @@
       "freq": 22,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 1
       }
     },
     "ill": {
@@ -1473,11 +1633,13 @@
       "freq": 13,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "there": {
@@ -1485,11 +1647,13 @@
       "freq": 358,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 6
       }
     },
     "no": {
@@ -1497,11 +1661,13 @@
       "freq": 221,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 7,
+      "total": 21,
       "by_chapter": {
-        "chapter-001": 7
+        "chapter-001": 7,
+        "chapter-002": 14
       }
     },
     "one": {
@@ -1509,11 +1675,13 @@
       "freq": 466,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 6,
+      "total": 16,
       "by_chapter": {
-        "chapter-001": 6
+        "chapter-001": 6,
+        "chapter-002": 10
       }
     },
     "else": {
@@ -1521,11 +1689,13 @@
       "freq": 32,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "tend": {
@@ -1545,11 +1715,13 @@
       "freq": 65,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 11,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 8
       }
     },
     "each": {
@@ -1557,11 +1729,13 @@
       "freq": 206,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "evening": {
@@ -1569,11 +1743,13 @@
       "freq": 4,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "when": {
@@ -1581,11 +1757,13 @@
       "freq": 364,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 2
       }
     },
     "begin": {
@@ -1593,11 +1771,13 @@
       "freq": 60,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "fail": {
@@ -1629,11 +1809,13 @@
       "freq": 17,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "herb": {
@@ -1641,11 +1823,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 2
       }
     },
     "beside": {
@@ -1677,11 +1861,13 @@
       "freq": 58,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "herself": {
@@ -1701,11 +1887,13 @@
       "freq": 243,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 7
       }
     },
     "daughter": {
@@ -1713,11 +1901,13 @@
       "freq": 5,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "who": {
@@ -1725,11 +1915,13 @@
       "freq": 358,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 9,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 6
       }
     },
     "anyway": {
@@ -1749,11 +1941,13 @@
       "freq": 211,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "love": {
@@ -1797,11 +1991,13 @@
       "freq": 413,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 11,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 8
       }
     },
     "cook": {
@@ -1821,11 +2017,13 @@
       "freq": 11,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 3
       }
     },
     "low": {
@@ -1833,11 +2031,13 @@
       "freq": 38,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 6
       }
     },
     "ground": {
@@ -1905,11 +2105,13 @@
       "freq": 790,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 8,
+      "total": 26,
       "by_chapter": {
-        "chapter-001": 8
+        "chapter-001": 8,
+        "chapter-002": 18
       }
     },
     "these": {
@@ -1929,11 +2131,13 @@
       "freq": 7,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 3
       }
     },
     "thing": {
@@ -1941,11 +2145,13 @@
       "freq": 123,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 5
       }
     },
     "complaint": {
@@ -1965,11 +2171,13 @@
       "freq": 1725,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 6,
+      "total": 20,
       "by_chapter": {
-        "chapter-001": 6
+        "chapter-001": 6,
+        "chapter-002": 14
       }
     },
     "All": {
@@ -1977,11 +2185,13 @@
       "freq": 372,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 2
       }
     },
     "full": {
@@ -2001,11 +2211,13 @@
       "freq": 14,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 6
       }
     },
     "as": {
@@ -2013,11 +2225,13 @@
       "freq": 1195,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 12,
+      "total": 21,
       "by_chapter": {
-        "chapter-001": 12
+        "chapter-001": 12,
+        "chapter-002": 9
       }
     },
     "beneath": {
@@ -2025,11 +2239,13 @@
       "freq": 4,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 2
       }
     },
     "tall": {
@@ -2049,11 +2265,13 @@
       "freq": 46,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 4
       }
     },
     "fell": {
@@ -2061,11 +2279,13 @@
       "freq": 12,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "complete": {
@@ -2085,11 +2305,13 @@
       "freq": 123,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 11,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 7
       }
     },
     "bird": {
@@ -2121,11 +2343,13 @@
       "freq": 35,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "hundred": {
@@ -2133,11 +2357,13 @@
       "freq": 23,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "feel": {
@@ -2145,11 +2371,13 @@
       "freq": 103,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 5
       }
     },
     "strange": {
@@ -2157,11 +2385,13 @@
       "freq": 10,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "wrong": {
@@ -2169,11 +2399,13 @@
       "freq": 33,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 1
       }
     },
     "if": {
@@ -2181,11 +2413,13 @@
       "freq": 352,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "earth": {
@@ -2193,11 +2427,13 @@
       "freq": 13,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 2
       }
     },
     "itself": {
@@ -2217,11 +2453,13 @@
       "freq": 82,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "breath": {
@@ -2229,11 +2467,13 @@
       "freq": 5,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "on": {
@@ -2241,11 +2481,13 @@
       "freq": 1386,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 6
       }
     },
     "iron": {
@@ -2253,11 +2495,13 @@
       "freq": 4,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 6
       }
     },
     "knife": {
@@ -2289,11 +2533,13 @@
       "freq": 216,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 7,
+      "total": 14,
       "by_chapter": {
-        "chapter-001": 7
+        "chapter-001": 7,
+        "chapter-002": 7
       }
     },
     "though": {
@@ -2313,11 +2559,13 @@
       "freq": 31,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "cost": {
@@ -2325,11 +2573,13 @@
       "freq": 118,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "something": {
@@ -2337,11 +2587,13 @@
       "freq": 70,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 6,
+      "total": 11,
       "by_chapter": {
-        "chapter-001": 6
+        "chapter-001": 6,
+        "chapter-002": 5
       }
     },
     "deep": {
@@ -2349,11 +2601,13 @@
       "freq": 30,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 3
       }
     },
     "crystal": {
@@ -2361,11 +2615,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "figure": {
@@ -2385,11 +2641,13 @@
       "freq": 20,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 4
       }
     },
     "blind": {
@@ -2409,11 +2667,13 @@
       "freq": 13,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "along": {
@@ -2421,11 +2681,13 @@
       "freq": 36,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "person": {
@@ -2433,11 +2695,13 @@
       "freq": 57,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "leave": {
@@ -2445,11 +2709,13 @@
       "freq": 49,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "crust": {
@@ -2493,11 +2759,13 @@
       "freq": 9,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "coin": {
@@ -2589,11 +2857,13 @@
       "freq": 3,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "soft": {
@@ -2601,11 +2871,13 @@
       "freq": 5,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "moss": {
@@ -2625,11 +2897,13 @@
       "freq": 173,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 1
       }
     },
     "poor": {
@@ -2661,11 +2935,13 @@
       "freq": 7,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "bundle": {
@@ -2697,11 +2973,13 @@
       "freq": 142,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 5
       }
     },
     "see": {
@@ -2709,11 +2987,13 @@
       "freq": 144,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 7,
+      "total": 24,
       "by_chapter": {
-        "chapter-001": 7
+        "chapter-001": 7,
+        "chapter-002": 17
       }
     },
     "thread": {
@@ -2721,11 +3001,13 @@
       "freq": 1,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "gold": {
@@ -2733,11 +3015,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 1
       }
     },
     "hair": {
@@ -2769,11 +3053,13 @@
       "freq": 125,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 3
       }
     },
     "Air": {
@@ -2781,11 +3067,13 @@
       "freq": 23,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 2
       }
     },
     "like": {
@@ -2793,11 +3081,13 @@
       "freq": 196,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 9,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 6
       }
     },
     "living": {
@@ -2805,11 +3095,13 @@
       "freq": 51,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "glow": {
@@ -2817,11 +3109,13 @@
       "freq": 3,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "move": {
@@ -2829,11 +3123,13 @@
       "freq": 72,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "sure": {
@@ -2841,11 +3137,13 @@
       "freq": 26,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "hunger": {
@@ -2889,11 +3187,13 @@
       "freq": 84,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 9,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 7
       }
     },
     "head": {
@@ -2901,11 +3201,13 @@
       "freq": 25,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "open": {
@@ -2913,11 +3215,13 @@
       "freq": 48,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "book": {
@@ -2985,11 +3289,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "pain": {
@@ -2997,11 +3303,13 @@
       "freq": 22,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 1
       }
     },
     "burn": {
@@ -3021,11 +3329,13 @@
       "freq": 31,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 5
       }
     },
     "right": {
@@ -3033,11 +3343,13 @@
       "freq": 121,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "sudden": {
@@ -3045,11 +3357,13 @@
       "freq": 7,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "bright": {
@@ -3093,11 +3407,13 @@
       "freq": 70,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 9,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 5
       }
     },
     "out": {
@@ -3105,11 +3421,13 @@
       "freq": 265,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 11,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 7
       }
     },
     "roar": {
@@ -3177,11 +3495,13 @@
       "freq": 44,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 5
       }
     },
     "pour": {
@@ -3201,11 +3521,13 @@
       "freq": 2,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "again": {
@@ -3213,11 +3535,13 @@
       "freq": 30,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "more": {
@@ -3225,11 +3549,13 @@
       "freq": 723,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 9,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 6
       }
     },
     "change": {
@@ -3237,11 +3563,13 @@
       "freq": 295,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "ordinary": {
@@ -3261,11 +3589,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 2
       }
     },
     "ring": {
@@ -3273,11 +3603,13 @@
       "freq": 2,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "faint": {
@@ -3321,11 +3653,13 @@
       "freq": 11,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "know": {
@@ -3333,11 +3667,13 @@
       "freq": 144,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 10
       }
     },
     "whether": {
@@ -3345,11 +3681,13 @@
       "freq": 65,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "curse": {
@@ -3357,11 +3695,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "near": {
@@ -3369,11 +3709,13 @@
       "freq": 22,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 1
       }
     },
     "dawn": {
@@ -3393,11 +3735,13 @@
       "freq": 38,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 2
       }
     },
     "home": {
@@ -3417,11 +3761,13 @@
       "freq": 117,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 4
       }
     },
     "sleep": {
@@ -3441,11 +3787,13 @@
       "freq": 267,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 11,
+      "total": 35,
       "by_chapter": {
-        "chapter-001": 11
+        "chapter-001": 11,
+        "chapter-002": 24
       }
     },
     "bed": {
@@ -3465,11 +3813,13 @@
       "freq": 5,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "reflection": {
@@ -3501,11 +3851,13 @@
       "freq": 43,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 1
       }
     },
     "yet": {
@@ -3513,11 +3865,13 @@
       "freq": 113,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 3,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 3
+        "chapter-001": 3,
+        "chapter-002": 3
       }
     },
     "how": {
@@ -3525,11 +3879,13 @@
       "freq": 263,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "explain": {
@@ -3549,11 +3905,13 @@
       "freq": 51,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "little": {
@@ -3585,11 +3943,13 @@
       "freq": 852,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 3
       }
     },
     "cold": {
@@ -3597,11 +3957,13 @@
       "freq": 8,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 3
       }
     },
     "test": {
@@ -3621,11 +3983,13 @@
       "freq": 139,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 9
       }
     },
     "pot": {
@@ -3669,11 +4033,13 @@
       "freq": 98,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "memory": {
@@ -3693,11 +4059,13 @@
       "freq": 30,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "skin": {
@@ -3717,11 +4085,13 @@
       "freq": 4,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "under": {
@@ -3729,11 +4099,13 @@
       "freq": 72,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "new": {
@@ -3765,11 +4137,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "weak": {
@@ -3789,11 +4163,13 @@
       "freq": 12,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 5
       }
     },
     "why": {
@@ -3813,11 +4189,13 @@
       "freq": 27,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "fetch": {
@@ -3849,11 +4227,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 6,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 5
       }
     },
     "group": {
@@ -3885,11 +4265,13 @@
       "freq": 318,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 13,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 11
       }
     },
     "name": {
@@ -3897,11 +4279,13 @@
       "freq": 76,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 5
       }
     },
     "hammer": {
@@ -3909,11 +4293,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "keep": {
@@ -3921,11 +4307,13 @@
       "freq": 116,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "down": {
@@ -3933,11 +4321,13 @@
       "freq": 86,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "fast": {
@@ -3945,11 +4335,13 @@
       "freq": 32,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 4,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 4
+        "chapter-001": 4,
+        "chapter-002": 1
       }
     },
     "upon": {
@@ -3957,11 +4349,13 @@
       "freq": 17,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "back": {
@@ -3969,11 +4363,13 @@
       "freq": 83,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "up": {
@@ -3981,11 +4377,13 @@
       "freq": 255,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "spine": {
@@ -4017,11 +4415,13 @@
       "freq": 50,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "hear": {
@@ -4029,11 +4429,13 @@
       "freq": 23,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "northern": {
@@ -4041,11 +4443,13 @@
       "freq": 3,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "some": {
@@ -4077,11 +4481,13 @@
       "freq": 314,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 7,
+      "total": 35,
       "by_chapter": {
-        "chapter-001": 7
+        "chapter-001": 7,
+        "chapter-002": 28
       }
     },
     "fall": {
@@ -4089,11 +4495,13 @@
       "freq": 38,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "sky": {
@@ -4101,11 +4509,13 @@
       "freq": 5,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "disappear": {
@@ -4113,11 +4523,13 @@
       "freq": 14,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "among": {
@@ -4125,11 +4537,13 @@
       "freq": 95,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "pin": {
@@ -4137,11 +4551,13 @@
       "freq": 1,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "spread": {
@@ -4149,11 +4565,13 @@
       "freq": 25,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "truth": {
@@ -4197,11 +4615,13 @@
       "freq": 57,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "secret": {
@@ -4209,11 +4629,13 @@
       "freq": 17,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "coal": {
@@ -4257,11 +4679,13 @@
       "freq": 2,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "arm": {
@@ -4281,11 +4705,13 @@
       "freq": 795,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 7
       }
     },
     "about": {
@@ -4305,11 +4731,13 @@
       "freq": 609,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 4
       }
     },
     "rope": {
@@ -4341,11 +4769,13 @@
       "freq": 34,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 5
       }
     },
     "would": {
@@ -4353,11 +4783,13 @@
       "freq": 319,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 5,
+      "total": 10,
       "by_chapter": {
-        "chapter-001": 5
+        "chapter-001": 5,
+        "chapter-002": 5
       }
     },
     "lift": {
@@ -4425,11 +4857,13 @@
       "freq": 85,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "whisper": {
@@ -4437,11 +4871,13 @@
       "freq": 1,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "hurry": {
@@ -4449,11 +4885,13 @@
       "freq": 1,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "heart": {
@@ -4461,11 +4899,13 @@
       "freq": 24,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "beat": {
@@ -4485,11 +4925,13 @@
       "freq": 74,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "rib": {
@@ -4497,11 +4939,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "gate": {
@@ -4509,11 +4953,13 @@
       "freq": 9,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 3
       }
     },
     "town": {
@@ -4545,11 +4991,13 @@
       "freq": 223,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 3
       }
     },
     "travel": {
@@ -4557,11 +5005,13 @@
       "freq": 39,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "reason": {
@@ -4617,11 +5067,13 @@
       "freq": 7,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "guard": {
@@ -4629,11 +5081,13 @@
       "freq": 10,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "thunder": {
@@ -4641,11 +5095,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "young": {
@@ -4653,11 +5109,13 @@
       "freq": 87,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "officer": {
@@ -4665,11 +5123,13 @@
       "freq": 12,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "soldier": {
@@ -4677,11 +5137,13 @@
       "freq": 9,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "smile": {
@@ -4689,11 +5151,13 @@
       "freq": 26,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "color": {
@@ -4701,11 +5165,13 @@
       "freq": 3,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "last": {
@@ -4713,11 +5179,13 @@
       "freq": 150,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 6
       }
     },
     "tomb": {
@@ -4725,11 +5193,13 @@
       "freq": 3,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "north": {
@@ -4737,11 +5207,13 @@
       "freq": 15,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 4
       }
     },
     "dead": {
@@ -4797,11 +5269,13 @@
       "freq": 0,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "hero": {
@@ -4809,11 +5283,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "end": {
@@ -4821,11 +5297,13 @@
       "freq": 93,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "care": {
@@ -4845,11 +5323,13 @@
       "freq": 268,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 1
       }
     },
     "order": {
@@ -4857,11 +5337,13 @@
       "freq": 51,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 2
       }
     },
     "source": {
@@ -4869,11 +5351,13 @@
       "freq": 40,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 2,
+      "total": 5,
       "by_chapter": {
-        "chapter-001": 2
+        "chapter-001": 2,
+        "chapter-002": 3
       }
     },
     "silence": {
@@ -4881,11 +5365,13 @@
       "freq": 4,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "emperor": {
@@ -4917,11 +5403,13 @@
       "freq": 4,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "crown": {
@@ -4929,11 +5417,13 @@
       "freq": 3,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "danger": {
@@ -4965,11 +5455,13 @@
       "freq": 19,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "put": {
@@ -5001,11 +5493,13 @@
       "freq": 150,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "bound": {
@@ -5013,11 +5507,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "together": {
@@ -5049,11 +5545,13 @@
       "freq": 73,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "terrible": {
@@ -5061,11 +5559,13 @@
       "freq": 2,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 2,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 1
       }
     },
     "journey": {
@@ -5133,11 +5633,13 @@
       "freq": 6,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 4,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 3
       }
     },
     "ash": {
@@ -5157,11 +5659,13 @@
       "freq": 181,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 8,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 7
       }
     },
     "simple": {
@@ -5181,11 +5685,13 @@
       "freq": 176,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 3,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 2
       }
     },
     "now": {
@@ -5193,11 +5699,13 @@
       "freq": 180,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
       ],
-      "total": 1,
+      "total": 7,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-001": 1,
+        "chapter-002": 6
       }
     },
     "born": {
@@ -5217,11 +5725,1717 @@
       "freq": 94,
       "first_chapter": "chapter-001",
       "chapters": [
-        "chapter-001"
+        "chapter-001",
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-001": 1,
+        "chapter-002": 1
+      }
+    },
+    "sound": {
+      "word": "sound",
+      "freq": 19,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "arrival": {
+      "word": "arrival",
+      "freq": 7,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
       ],
       "total": 1,
       "by_chapter": {
-        "chapter-001": 1
+        "chapter-002": 1
+      }
+    },
+    "army": {
+      "word": "army",
+      "freq": 7,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "steady": {
+      "word": "steady",
+      "freq": 7,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "drum": {
+      "word": "drum",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "wipe": {
+      "word": "wipe",
+      "freq": 5,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "game": {
+      "word": "game",
+      "freq": 27,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "mother": {
+      "word": "mother",
+      "freq": 22,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "horse": {
+      "word": "horse",
+      "freq": 4,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "ever": {
+      "word": "ever",
+      "freq": 40,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "column": {
+      "word": "column",
+      "freq": 24,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "ten": {
+      "word": "ten",
+      "freq": 13,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "cloak": {
+      "word": "cloak",
+      "freq": 1,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "blade": {
+      "word": "blade",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "frost": {
+      "word": "frost",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "lay": {
+      "word": "lay",
+      "freq": 14,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "shoulder": {
+      "word": "shoulder",
+      "freq": 5,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "straight": {
+      "word": "straight",
+      "freq": 6,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "saddle": {
+      "word": "saddle",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "show": {
+      "word": "show",
+      "freq": 177,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "ridge": {
+      "word": "ridge",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "pile": {
+      "word": "pile",
+      "freq": 3,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "single": {
+      "word": "single",
+      "freq": 38,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-002": 4
+      }
+    },
+    "narrow": {
+      "word": "narrow",
+      "freq": 13,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "bridge": {
+      "word": "bridge",
+      "freq": 3,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "stream": {
+      "word": "stream",
+      "freq": 16,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "raise": {
+      "word": "raise",
+      "freq": 60,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "stop": {
+      "word": "stop",
+      "freq": 40,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "across": {
+      "word": "across",
+      "freq": 52,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 6,
+      "by_chapter": {
+        "chapter-002": 6
+      }
+    },
+    "roof": {
+      "word": "roof",
+      "freq": 1,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "smoke": {
+      "word": "smoke",
+      "freq": 13,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "too": {
+      "word": "too",
+      "freq": 132,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-002": 4
+      }
+    },
+    "heavy": {
+      "word": "heavy",
+      "freq": 13,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "valley": {
+      "word": "valley",
+      "freq": 8,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "wait": {
+      "word": "wait",
+      "freq": 24,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "drink": {
+      "word": "drink",
+      "freq": 15,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "careful": {
+      "word": "careful",
+      "freq": 6,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "distance": {
+      "word": "distance",
+      "freq": 8,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "until": {
+      "word": "until",
+      "freq": 54,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "year": {
+      "word": "year",
+      "freq": 336,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "forward": {
+      "word": "forward",
+      "freq": 15,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "bare": {
+      "word": "bare",
+      "freq": 2,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "shake": {
+      "word": "shake",
+      "freq": 2,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "want": {
+      "word": "want",
+      "freq": 104,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "humble": {
+      "word": "humble",
+      "freq": 5,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "seek": {
+      "word": "seek",
+      "freq": 50,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "flat": {
+      "word": "flat",
+      "freq": 3,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "clear": {
+      "word": "clear",
+      "freq": 53,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "many": {
+      "word": "many",
+      "freq": 282,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "league": {
+      "word": "league",
+      "freq": 1,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "I": {
+      "word": "I",
+      "freq": 272,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 12,
+      "by_chapter": {
+        "chapter-002": 12
+      }
+    },
+    "my": {
+      "word": "my",
+      "freq": 74,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "Allow": {
+      "word": "Allow",
+      "freq": 61,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "me": {
+      "word": "me",
+      "freq": 35,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "return": {
+      "word": "return",
+      "freq": 60,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "answer": {
+      "word": "answer",
+      "freq": 470,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "murmur": {
+      "word": "murmur",
+      "freq": 1,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "crowd": {
+      "word": "crowd",
+      "freq": 8,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 5,
+      "by_chapter": {
+        "chapter-002": 5
+      }
+    },
+    "brief": {
+      "word": "brief",
+      "freq": 11,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "same": {
+      "word": "same",
+      "freq": 97,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "ask": {
+      "word": "ask",
+      "freq": 98,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 4,
+      "by_chapter": {
+        "chapter-002": 4
+      }
+    },
+    "loud": {
+      "word": "loud",
+      "freq": 4,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "lord": {
+      "word": "lord",
+      "freq": 6,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "blow": {
+      "word": "blow",
+      "freq": 5,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "scarf": {
+      "word": "scarf",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "tight": {
+      "word": "tight",
+      "freq": 4,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "pull": {
+      "word": "pull",
+      "freq": 9,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "hop": {
+      "word": "hop",
+      "freq": 8,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "fool": {
+      "word": "fool",
+      "freq": 3,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "weight": {
+      "word": "weight",
+      "freq": 18,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "enough": {
+      "word": "enough",
+      "freq": 66,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "any": {
+      "word": "any",
+      "freq": 132,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "instead": {
+      "word": "instead",
+      "freq": 108,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "flare": {
+      "word": "flare",
+      "freq": 1,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "part": {
+      "word": "part",
+      "freq": 432,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "loose": {
+      "word": "loose",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "side": {
+      "word": "side",
+      "freq": 35,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "slight": {
+      "word": "slight",
+      "freq": 3,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "wool": {
+      "word": "wool",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "dress": {
+      "word": "dress",
+      "freq": 7,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "read": {
+      "word": "read",
+      "freq": 197,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "cut": {
+      "word": "cut",
+      "freq": 31,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "quick": {
+      "word": "quick",
+      "freq": 20,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "will": {
+      "word": "will",
+      "freq": 513,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "question": {
+      "word": "question",
+      "freq": 166,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "protest": {
+      "word": "protest",
+      "freq": 5,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "sick": {
+      "word": "sick",
+      "freq": 5,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "silent": {
+      "word": "silent",
+      "freq": 4,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "gesture": {
+      "word": "gesture",
+      "freq": 2,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "calm": {
+      "word": "calm",
+      "freq": 8,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "expect": {
+      "word": "expect",
+      "freq": 55,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "obey": {
+      "word": "obey",
+      "freq": 3,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "often": {
+      "word": "often",
+      "freq": 141,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "disappoint": {
+      "word": "disappoint",
+      "freq": 15,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "pace": {
+      "word": "pace",
+      "freq": 18,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "think": {
+      "word": "think",
+      "freq": 177,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "follow": {
+      "word": "follow",
+      "freq": 48,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "pine": {
+      "word": "pine",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "needle": {
+      "word": "needle",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "fade": {
+      "word": "fade",
+      "freq": 10,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "daylight": {
+      "word": "daylight",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "just": {
+      "word": "just",
+      "freq": 183,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "beyond": {
+      "word": "beyond",
+      "freq": 46,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "point": {
+      "word": "point",
+      "freq": 375,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "glove": {
+      "word": "glove",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "very": {
+      "word": "very",
+      "freq": 108,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "sword": {
+      "word": "sword",
+      "freq": 2,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "draw": {
+      "word": "draw",
+      "freq": 28,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 3,
+      "by_chapter": {
+        "chapter-002": 3
+      }
+    },
+    "recognition": {
+      "word": "recognition",
+      "freq": 10,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "wake": {
+      "word": "wake",
+      "freq": 13,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "width": {
+      "word": "width",
+      "freq": 0,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "space": {
+      "word": "space",
+      "freq": 23,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "paint": {
+      "word": "paint",
+      "freq": 2,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "between": {
+      "word": "between",
+      "freq": 158,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "less": {
+      "word": "less",
+      "freq": 173,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "certain": {
+      "word": "certain",
+      "freq": 58,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "lie": {
+      "word": "lie",
+      "freq": 21,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "strength": {
+      "word": "strength",
+      "freq": 13,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "make": {
+      "word": "make",
+      "freq": 430,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "after": {
+      "word": "after",
+      "freq": 141,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "means": {
+      "word": "means",
+      "freq": 95,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "can": {
+      "word": "can",
+      "freq": 687,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "story": {
+      "word": "story",
+      "freq": 42,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "door": {
+      "word": "door",
+      "freq": 23,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "onto": {
+      "word": "onto",
+      "freq": 8,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "quite": {
+      "word": "quite",
+      "freq": 20,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "must": {
+      "word": "must",
+      "freq": 119,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "take": {
+      "word": "take",
+      "freq": 240,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 2,
+      "by_chapter": {
+        "chapter-002": 2
+      }
+    },
+    "reward": {
+      "word": "reward",
+      "freq": 34,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "yours": {
+      "word": "yours",
+      "freq": 5,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "worth": {
+      "word": "worth",
+      "freq": 20,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "court": {
+      "word": "court",
+      "freq": 84,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "twice": {
+      "word": "twice",
+      "freq": 9,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "collect": {
+      "word": "collect",
+      "freq": 27,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "lead": {
+      "word": "lead",
+      "freq": 74,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "death": {
+      "word": "death",
+      "freq": 35,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "choose": {
+      "word": "choose",
+      "freq": 172,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "off": {
+      "word": "off",
+      "freq": 83,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "ahead": {
+      "word": "ahead",
+      "freq": 11,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "mind": {
+      "word": "mind",
+      "freq": 61,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "decide": {
+      "word": "decide",
+      "freq": 32,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
+      }
+    },
+    "ride": {
+      "word": "ride",
+      "freq": 3,
+      "first_chapter": "chapter-002",
+      "chapters": [
+        "chapter-002"
+      ],
+      "total": 1,
+      "by_chapter": {
+        "chapter-002": 1
       }
     }
   }

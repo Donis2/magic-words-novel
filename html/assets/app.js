@@ -5,6 +5,7 @@
   let vocabMap = {};       // 原形 -> 词条
   let chapterList = [];    // chapters.json 的 chapters
   let usageStats = null;   // usage_stats.json
+  let analysisSentences = null; // analysis.json 的 sentences 表（spaCy 预计算成分）
   let currentId = null;    // 当前章节 id
   let pendingPara = null;  // 翻译后译文要插入的段落元素
 
@@ -30,6 +31,13 @@
       });
       chapterList = chapters.chapters || [];
       usageStats = stats;
+      // 句子成分分析数据（spaCy 离线预计算），加载失败不影响其他功能
+      try {
+        const analysis = await fetchJSON("data/analysis.json");
+        analysisSentences = analysis.sentences || null;
+      } catch (e) {
+        analysisSentences = null;
+      }
       renderHome();
       bindEvents();
       loadSettings();
@@ -256,62 +264,68 @@
     selectTimer = setTimeout(handleSelection, 220);
   }
 
+  function hideFloatingBtns() {
+    $("#translate-btn").classList.add("hidden");
+    $("#analyze-btn").classList.add("hidden");
+  }
+
   function handleSelection() {
     const sel = window.getSelection();
-    const btn = $("#translate-btn");
-    if (!sel || sel.isCollapsed) {
-      btn.classList.add("hidden");
-      return;
-    }
+    if (!sel || sel.isCollapsed) { hideFloatingBtns(); return; }
     const text = sel.toString().trim();
-    if (!text) {
-      btn.classList.add("hidden");
-      return;
-    }
+    if (!text) { hideFloatingBtns(); return; }
     // 仅当选区位于正文内
     const anchor = sel.anchorNode;
     const anchorEl = anchor && (anchor.nodeType === 1 ? anchor : anchor.parentElement);
-    if (!anchorEl || !anchorEl.closest("#reader-body")) {
-      btn.classList.add("hidden");
-      return;
-    }
-    showTranslateBtn(sel);
+    if (!anchorEl || !anchorEl.closest("#reader-body")) { hideFloatingBtns(); return; }
+    showFloatingBtns(sel);
   }
 
-  function showTranslateBtn(sel) {
+  function showFloatingBtns(sel) {
     if (!sel || sel.rangeCount === 0) return;
     const range = sel.getRangeAt(0);
     const rect = range.getBoundingClientRect();
-    const btn = $("#translate-btn");
+    const btnT = $("#translate-btn");
+    const btnA = $("#analyze-btn");
 
     // 记忆当前选中文本（剔除词频上标数字，只保留英文）
-    btn.dataset.text = getSelectionText(sel);
-    // 记忆选区所在段落，供点击翻译后插入译文（点击按钮会清空 selection）
+    const text = getSelectionText(sel);
+    btnT.dataset.text = text;
+    btnA.dataset.text = text;
+    // 记忆选区所在段落，供插入译文/分析结果（点击按钮会清空 selection）
     const node = sel.anchorNode;
     pendingPara = (node && node.parentElement && node.parentElement.closest("p")) || null;
-    if (!pendingPara) return;
+    if (!pendingPara) { hideFloatingBtns(); return; }
 
     // 先临时显示以测量按钮尺寸（保持不可见，避免闪烁）
-    btn.style.visibility = "hidden";
-    btn.classList.remove("hidden");
-    btn.style.left = "0px";
-    btn.style.top = "0px";
-    const btnH = btn.offsetHeight || 34;
-    const btnW = btn.offsetWidth || 64;
+    btnT.style.visibility = "hidden";
+    btnA.style.visibility = "hidden";
+    btnT.classList.remove("hidden");
+    btnA.classList.remove("hidden");
+    btnT.style.left = "0px"; btnT.style.top = "0px";
+    btnA.style.left = "0px"; btnA.style.top = "0px";
+    const wT = btnT.offsetWidth || 60;
+    const wA = btnA.offsetWidth || 60;
+    const btnH = Math.max(btnT.offsetHeight || 34, btnA.offsetHeight || 34);
+    const between = 6;
+    const totalW = wT + wA + between;
 
     const centerX = rect.left + rect.width / 2;
-    let left = centerX - btnW / 2;
-    left = Math.max(8, Math.min(left, window.innerWidth - btnW - 8));
+    let left = centerX - totalW / 2;
+    left = Math.max(8, Math.min(left, window.innerWidth - totalW - 8));
 
-    // 按钮默认放在选区下方，避开浏览器自带的选中菜单（多出现在上方/下方手柄处）
+    // 按钮默认放在选区下方，避开浏览器自带的选中菜单
     const gap = 8;
     let top = rect.bottom + gap;
     if (top + btnH > window.innerHeight - 4) top = rect.top - btnH - gap;
     if (top < 4) top = 4;
 
-    btn.style.left = left + "px";
-    btn.style.top = top + "px";
-    btn.style.visibility = "";
+    btnT.style.left = left + "px";
+    btnA.style.left = (left + wT + between) + "px";
+    btnT.style.top = top + "px";
+    btnA.style.top = top + "px";
+    btnT.style.visibility = "";
+    btnA.style.visibility = "";
   }
 
   // 提取选区纯文本，去除 <sup> 词频数字
@@ -329,7 +343,7 @@
     // 立即清空状态，防止 pointerdown/touchstart/mousedown 等重复触发导致二次翻译
     btn.dataset.text = "";
     pendingPara = null;
-    btn.classList.add("hidden");
+    hideFloatingBtns();
     if (!text || !para) return;
 
     let zh = null;
@@ -341,14 +355,300 @@
 
     const box = document.createElement("div");
     box.className = "translate-box";
+    const closeBtn = `<button class="box-close" type="button" aria-label="关闭">×</button>`;
     if (zh) {
-      box.innerHTML = `<div class="src">原文：${esc(text)}</div><div>${esc(zh)}</div>`;
+      box.innerHTML = closeBtn + `<div class="src">原文：${esc(text)}</div><div>${esc(zh)}</div>`;
     } else {
       box.innerHTML =
+        closeBtn +
         `<div class="src">原文：${esc(text)}</div>` +
         `<div class="err">翻译服务暂不可用（网络或接口限制），请手动复制到翻译工具后再试。</div>`;
     }
     // 插入到选中段落的后面
+    para.insertAdjacentElement("afterend", box);
+    box.scrollIntoView({ block: "nearest" });
+  }
+
+  // ===== 句子成分分析（启发式浅层分析）=====
+  const FUNC = {
+    be: new Set(["am", "is", "are", "was", "were", "be", "been", "being"]),
+    aux: new Set(["have", "has", "had", "having", "do", "does", "did", "done"]),
+    mod: new Set(["can", "could", "may", "might", "must", "shall", "should", "will", "would", "need", "dare"]),
+    neg: new Set(["not", "n't", "never"]),
+    conj: new Set(["and", "but", "or", "nor", "yet", "if", "because", "although", "though", "unless"]),
+    prep: new Set(["of", "in", "to", "for", "with", "on", "at", "from", "by", "about", "as", "into", "through", "over", "under", "before", "after", "between", "among", "without", "within", "during", "against", "behind", "beyond", "near", "toward", "upon", "across", "along", "around", "off", "onto", "above", "below", "until", "like", "inside", "outside", "past", "beside", "per"]),
+    det: new Set(["a", "an", "the", "this", "that", "these", "those", "my", "your", "his", "her", "its", "our", "their", "some", "any", "no", "every", "each", "both", "all", "many", "much", "few", "several", "more", "most", "other", "another", "such", "own"]),
+    pron: new Set(["i", "you", "he", "she", "it", "we", "they", "me", "him", "us", "them", "one", "ones", "who", "whom", "what", "whatever", "everyone", "everybody", "everything", "someone", "somebody", "something", "anyone", "anybody", "anything", "nothing", "nobody", "none", "this", "that", "these", "those"]),
+    link: new Set(["be", "am", "is", "are", "was", "were", "been", "being", "become", "seem", "look", "feel", "sound", "remain", "appear", "get", "turn", "grow", "stay", "keep"]),
+  };
+  // 常见不规则动词的过去式/过去分词（原形同形者一并收录），用于正确识别谓语动词
+  const IRREG_VERB = new Set("arose arisen awoke awoken beat beaten became become began begun bent bet bid bade bit bitten bled blew blown broke broken bred brought built bought caught chose chosen clung came come crept cut dealt dug drew drawn drank drunk drove driven ate eaten fell fallen fed felt fought found fled flew flown forgot forgotten forgave frozen forgot gotten gave given went gone grew grown hung heard hid hidden hit held hurt kept knelt knew known laid led left lent let lay lain lit lost made meant met paid put quit read rid rode ridden rang rung ran run said saw seen sold sent set sewn shook shaken shone shot shown shrank shrunk shut sang sung sank sunk sat slept slid slung smelt spoke spoken sped spent spun spat split spread sprang sprung stood stole stolen stuck stung stank struck strung swore sworn swept swam swum swung took taken taught tore torn told thought threw thrown thrust undertook woke woken wore worn wove woven wept won wrote written".split(" "));
+
+  // 词频表 pos 缩写 -> 粗粒度
+  function coarsePos(pos) {
+    if (!pos) return null;
+    const p = pos.split("/")[0].trim();
+    if (p === "art.") return "DET";
+    if (p === "a." || p === "adj.") return "ADJ";
+    if (p === "ad." || p === "adv.") return "ADV";
+    if (p === "n.") return "NOUN";
+    if (p === "v." || p === "vi." || p === "vt.") return "VERB";
+    if (p === "prep.") return "PREP";
+    if (p === "conj.") return "CONJ";
+    if (p === "pron.") return "PRON";
+    if (p === "num.") return "NUM";
+    return null;
+  }
+
+  function inferPos(word) {
+    if (/^[A-Z][a-z]+$/.test(word)) return "NOUN"; // 专有名词
+    if (/ly$/.test(word)) return "ADV";
+    if (/(tion|sion|ment|ness|ity|ance|ence|ship|hood|dom|th)$/.test(word)) return "NOUN";
+    if (/(ous|ful|less|ive|able|ible|al|ic|ary|ant|ent|ish|some)$/.test(word)) return "ADJ";
+    if (/ing$/.test(word)) return "VERB";
+    if (/ed$/.test(word) && !/eed$/.test(word)) return "VERB";
+    if (/s$/.test(word) && !/ss$/.test(word)) return "NOUN";
+    return "NOUN";
+  }
+
+  // 将变形词还原到词表原形，返回粗粒度词性（查不到返回 null）
+  function lemmaPos(w) {
+    const cands = [];
+    if (/ies$/.test(w)) cands.push(w.slice(0, -3) + "y");
+    if (/es$/.test(w)) cands.push(w.slice(0, -2));
+    if (/s$/.test(w) && !/ss$/.test(w) && !/us$/.test(w) && !/is$/.test(w)) cands.push(w.slice(0, -1));
+    if (/ied$/.test(w)) cands.push(w.slice(0, -3) + "y");
+    if (/ed$/.test(w) && !/eed$/.test(w)) { cands.push(w.slice(0, -2)); cands.push(w.slice(0, -1)); }
+    if (/ying$/.test(w)) cands.push(w.slice(0, -4) + "ie");
+    if (/ing$/.test(w)) { cands.push(w.slice(0, -3)); cands.push(w.slice(0, -3) + "e"); }
+    // 双写辅音还原（stopped -> stop）
+    if (/([bcdfghjklmnpqrstvwxz])\1ed$/.test(w)) cands.push(w.slice(0, -3));
+    if (/([bcdfghjklmnpqrstvwxz])\1ing$/.test(w)) cands.push(w.slice(0, -4));
+    for (const c of cands) {
+      const e = vocabMap[c];
+      const p = e && e.pos ? coarsePos(e.pos) : null;
+      if (p) return p;
+    }
+    return null;
+  }
+
+  function tagToken(word) {
+    const w = word.toLowerCase();
+    if (FUNC.be.has(w) || FUNC.aux.has(w)) return "AUX";
+    if (FUNC.mod.has(w)) return "MOD";
+    if (FUNC.neg.has(w)) return "NEG";
+    if (IRREG_VERB.has(w)) return "VERB";
+    if (FUNC.conj.has(w)) return "CONJ";
+    if (FUNC.prep.has(w)) return "PREP";
+    if (FUNC.det.has(w)) return "DET";
+    if (FUNC.pron.has(w)) return "PRON";
+    if (/ly$/.test(w)) return "ADV";
+    const e = vocabMap[w];
+    if (e && e.pos) { const c = coarsePos(e.pos); if (c) return c; }
+    const lp = lemmaPos(w);
+    if (lp && lp !== "ADV") return lp;
+    return inferPos(word);
+  }
+
+  function tokenize(sentence) {
+    const out = [];
+    const re = /[A-Za-z]+(?:[’'-][A-Za-z]+)*|[.,!?;:()"“”—…]/g;
+    let m;
+    while ((m = re.exec(sentence))) {
+      out.push({ word: m[0], punct: /^[.,!?;:()"“”—…]+$/.test(m[0]) });
+    }
+    return out;
+  }
+
+  function analyzeHeuristic(sentence) {
+    const items = tokenize(sentence).map((t) => ({ word: t.word, tag: t.punct ? "PUNCT" : tagToken(t.word) }));
+    const chunks = [];
+    let i = 0;
+    const n = items.length;
+    let prevType = null;
+    const push = (type, words) => { if (words.length) { chunks.push({ type, words }); prevType = type; } };
+    const REL = new Set(["that", "which", "who", "whom", "whose", "where", "when", "why"]);
+
+    while (i < n) {
+      const w = items[i].word.toLowerCase();
+      const tag = items[i].tag;
+
+      if (tag === "PUNCT") { push("punct", [items[i].word]); i++; continue; }
+
+      // 关系代词/从属连词：紧跟名词后引导定语从句，或 that 紧跟动词后引导宾语从句
+      if (REL.has(w) && (prevType === "nominal" || (w === "that" && prevType === "verb"))) {
+        push("conj", [items[i].word]); i++; continue;
+      }
+      if (tag === "CONJ") { push("conj", [items[i].word]); i++; continue; }
+
+      // 谓语动词组（助动词/情态动词 + 否定 + 主动词，含中间副词）
+      if (tag === "MOD" || tag === "AUX") {
+        const words = [];
+        while (i < n) {
+          const t = items[i].tag;
+          if (t === "MOD" || t === "AUX" || t === "NEG" || t === "VERB") { words.push(items[i].word); i++; }
+          else if (t === "ADV" && words.length) { words.push(items[i].word); i++; }
+          else break;
+        }
+        push("verb", words);
+        continue;
+      }
+      if (tag === "VERB") { push("verb", [items[i].word]); i++; continue; }
+
+      // 介词短语
+      if (tag === "PREP") {
+        const words = [items[i].word]; i++;
+        while (i < n) {
+          const t = items[i].tag;
+          if (t === "DET" || t === "ADJ" || t === "NUM" || t === "NOUN" || t === "PRON") { words.push(items[i].word); i++; }
+          else break;
+        }
+        push("pp", words);
+        continue;
+      }
+
+      // 副词 -> 状语
+      if (tag === "ADV") {
+        const words = [];
+        while (i < n && items[i].tag === "ADV") { words.push(items[i].word); i++; }
+        push("adverbial", words);
+        continue;
+      }
+
+      // 名词短语：限定词/数词/形容词做定语，与名词中心分拆（按句中成分，而非只看词性）
+      if (tag === "DET" || tag === "ADJ" || tag === "NUM" || tag === "NOUN" || tag === "PRON") {
+        const attrib = [];
+        while (i < n) {
+          const t = items[i].tag;
+          if (t === "DET" || t === "NUM" || t === "ADJ") { attrib.push(items[i].word); i++; }
+          else if (t === "ADV" && attrib.length) { attrib.push(items[i].word); i++; }
+          else break;
+        }
+        const head = [];
+        while (i < n && (items[i].tag === "NOUN" || items[i].tag === "PRON")) {
+          head.push(items[i].word); i++;
+        }
+        if (attrib.length && head.length) {
+          push("attribute", attrib);
+          push("nominal", head);
+        } else if (head.length) {
+          push("nominal", head);
+        } else if (attrib.length) {
+          push("adjp", attrib);
+        }
+        continue;
+      }
+
+      push("other", [items[i].word]); i++;
+    }
+
+    // 角色标注：按短语在句中的作用归类，而非只看词性位置
+    const segs = [];
+    let verbFound = false;
+    let linking = false;
+    for (const c of chunks) {
+      if (c.type === "verb") {
+        verbFound = true;
+        linking = c.words.some((ww) => FUNC.link.has(ww.toLowerCase()));
+        segs.push({ type: "verb", text: c.words.join(" "), label: "谓语" });
+      } else if (c.type === "conj") {
+        segs.push({ type: "conj", text: c.words.join(" "), label: "连词" });
+      } else if (c.type === "punct") {
+        segs.push({ type: "punct", text: c.words.join(" "), label: "" });
+      } else if (c.type === "nominal") {
+        if (!verbFound) segs.push({ type: "subject", text: c.words.join(" "), label: "主语" });
+        else if (linking) segs.push({ type: "complement", text: c.words.join(" "), label: "表语" });
+        else segs.push({ type: "object", text: c.words.join(" "), label: "宾语" });
+      } else if (c.type === "attribute") {
+        segs.push({ type: "attribute", text: c.words.join(" "), label: "定语" });
+      } else if (c.type === "adjp") {
+        segs.push({ type: "complement", text: c.words.join(" "), label: "表语" });
+      } else if (c.type === "pp") {
+        // of 介词短语通常作后置定语，其余介词短语多作状语
+        if (c.words[0].toLowerCase() === "of") segs.push({ type: "attribute", text: c.words.join(" "), label: "定语" });
+        else segs.push({ type: "adverbial", text: c.words.join(" "), label: "状语" });
+      } else if (c.type === "adverbial") {
+        segs.push({ type: "adverbial", text: c.words.join(" "), label: "状语" });
+      } else {
+        segs.push({ type: "other", text: c.words.join(" "), label: "其他" });
+      }
+    }
+    return segs;
+  }
+
+  const SEG_TITLES = {
+    subject: "主语", verb: "谓语", object: "宾语", complement: "表语", comp: "补语",
+    attribute: "定语", adverbial: "状语", conj: "连词", expletive: "引导词", other: "其他",
+  };
+
+  function normalizeText(s) {
+    // 去空白 + 去掉句首尾引号/括号，与离线预计算的匹配键保持一致
+    return String(s).replace(/\s+/g, " ").trim()
+      .replace(/^["'“”‘’()\[\]]+|["'“”‘’()\[\]]+$/g, "");
+  }
+
+  // 把 spaCy 预计算的 [成分, 词] 序列合并成相邻同成分的片段
+  function segsFromTokens(tokens) {
+    const segs = [];
+    for (const [role, text] of tokens) {
+      const last = segs[segs.length - 1];
+      if (role === "punct") {
+        segs.push({ type: "punct", text, label: "" });
+        continue;
+      }
+      if (last && last.type === role && last.type !== "punct") {
+        last.text += " " + text;
+      } else {
+        segs.push({ type: role, text, label: SEG_TITLES[role] || "其他" });
+      }
+    }
+    return segs;
+  }
+
+  // 首选 spaCy 离线依赖解析结果（精确整句匹配），未命中回退到启发式分析
+  function analyzeSentence(sentence) {
+    if (analysisSentences) {
+      const tokens = analysisSentences[normalizeText(sentence)];
+      if (tokens) return segsFromTokens(tokens);
+    }
+    return analyzeHeuristic(sentence);
+  }
+
+  function buildAnalysisBox(text) {
+    const segs = analyzeSentence(text);
+    const box = document.createElement("div");
+    box.className = "analysis-box";
+    let line = '<div class="seg-line">';
+    for (const s of segs) {
+      if (s.type === "punct") {
+        line += `<span class="seg seg-punct"><span class="seg-word">${esc(s.text)}</span></span>`;
+      } else {
+        line += `<span class="seg seg-${s.type}"><span class="seg-word">${esc(s.text)}</span>` +
+          `<svg class="seg-brace" viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><path d="M 4 0 Q 30 20 50 16 Q 70 20 96 0" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>` +
+          `<span class="seg-label">${esc(s.label)}</span></span>`;
+      }
+    }
+    line += "</div>";
+    const order = ["subject", "verb", "object", "complement", "comp", "attribute", "adverbial", "conj", "expletive"];
+    const lg = [];
+    order.forEach((t) => { if (segs.some((s) => s.type === t)) lg.push(`<span class="lg lg-${t}"><i></i>${SEG_TITLES[t]}</span>`); });
+    const legend = lg.length ? `<div class="analysis-legend">${lg.join("")}</div>` : "";
+    box.innerHTML =
+      `<button class="box-close" type="button" aria-label="关闭">×</button>` +
+      `<div class="analysis-head">句子分析　<span class="analysis-orig">${esc(text)}</span></div>` +
+      line + legend;
+    return box;
+  }
+
+  function onAnalyze() {
+    const btn = $("#analyze-btn");
+    const text = btn.dataset.text;
+    const para = pendingPara;
+    btn.dataset.text = "";
+    pendingPara = null;
+    hideFloatingBtns();
+    if (!text || !para) return;
+    const box = buildAnalysisBox(text);
     para.insertAdjacentElement("afterend", box);
     box.scrollIntoView({ block: "nearest" });
   }
@@ -419,27 +719,38 @@
 
     // 翻译按钮用 pointerdown 触发：在移动端点按瞬间、选区尚未被系统清空前就响应，
     // 避免 click 落在选区已空/按钮已被隐藏之后导致无反应。
-    const translateBtn = $("#translate-btn");
-    if (window.PointerEvent) {
-      translateBtn.addEventListener("pointerdown", (e) => {
-        e.preventDefault();
-        onTranslate();
-      });
-    } else {
-      translateBtn.addEventListener("mousedown", (e) => {
-        e.preventDefault();
-        onTranslate();
-      });
-      translateBtn.addEventListener("touchstart", (e) => {
-        e.preventDefault();
-        onTranslate();
-      }, { passive: false });
-    }
+    const bindFloat = (btn, handler) => {
+      if (window.PointerEvent) {
+        btn.addEventListener("pointerdown", (e) => {
+          e.preventDefault();
+          handler();
+        });
+      } else {
+        btn.addEventListener("mousedown", (e) => {
+          e.preventDefault();
+          handler();
+        });
+        btn.addEventListener("touchstart", (e) => {
+          e.preventDefault();
+          handler();
+        }, { passive: false });
+      }
+    };
+    bindFloat($("#translate-btn"), onTranslate);
+    bindFloat($("#analyze-btn"), onAnalyze);
 
     // 单词读音按钮（事件委托，覆盖重新渲染的卡片）
     document.addEventListener("click", (e) => {
       const btn = e.target.closest(".speak-btn");
       if (btn && btn.dataset.word) speakWord(btn.dataset.word);
+    });
+
+    // 关闭翻译/分析小窗口
+    document.addEventListener("click", (e) => {
+      const btn = e.target.closest(".box-close");
+      if (!btn) return;
+      const box = btn.closest(".translate-box, .analysis-box");
+      if (box) box.remove();
     });
 
     // 点击空白关闭卡片
